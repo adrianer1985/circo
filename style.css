@@ -515,9 +515,17 @@ h1, h2, h3, h4 {
 /* Circus Marquee Image Frame */
 .hero-image-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  gap: var(--space-xs);
   z-index: 10;
+}
+
+@media (max-width: 991px) {
+  .hero-image-wrapper {
+    align-items: center;
+  }
 }
 
 .circus-marquee-frame {
