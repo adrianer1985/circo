@@ -295,6 +295,20 @@ h1, h2, h3, h4 {
   color: var(--color-gold);
 }
 
+.logo-img {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--color-gold);
+  object-fit: cover;
+  transition: var(--transition-smooth);
+}
+
+.logo-brand:hover .logo-img {
+  transform: scale(1.1) rotate(5deg);
+  border-color: var(--color-crimson);
+}
+
 .logo-emoji {
   filter: drop-shadow(0 0 4px var(--color-gold));
   transition: var(--transition-smooth);
