@@ -336,6 +336,27 @@ h1, h2, h3, h4 {
   padding: 5px 0;
 }
 
+/* Optimization for iPad Landscape & Small Laptops (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .nav-list {
+    gap: 15px;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+  }
+  .logo-brand {
+    font-size: 1.5rem;
+  }
+  .logo-img {
+    height: 36px;
+    width: 36px;
+  }
+  .btn-nav {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
+
 .nav-link::after {
   content: '';
   position: absolute;
