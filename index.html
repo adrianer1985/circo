@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chucherías Circo | El Templo de la Golosina Retro en Mijas</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎪</text></svg>">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Chucherías Circo es la mejor tienda de chuches de España. Descubre nuestro templo de golosinas retro de los años 80 y 90, decorado espectacularmente por Alberto Ortega en Las Lagunas, Mijas." id="metaDescription" data-i18n="meta_description">
+  <meta name="keywords" content="chucherias, golosinas retro, caramelos años 80, chuches años 90, circo, alberto ortega, mijas, las lagunas, tienda chucherias espectacular" id="metaKeywords" data-i18n="meta_keywords">
+  <meta name="author" content="Chucherías Circo">
+  
+  <!-- Canonical & Multilingual SEO -->
+  <link rel="canonical" href="https://www.chucheriascirco.com/">
+  <link rel="alternate" hreflang="es" href="https://www.chucheriascirco.com/?lang=es">
+  <link rel="alternate" hreflang="en" href="https://www.chucheriascirco.com/?lang=en">
+  <link rel="alternate" hreflang="fr" href="https://www.chucheriascirco.com/?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://www.chucheriascirco.com/">
+
+  <!-- JSON-LD Structured Data for Local SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Chucherías Circo",
+    "image": "https://www.chucheriascirco.com/assets/images/circus_storefront.webp",
+    "@id": "https://www.chucheriascirco.com/#store",
+    "url": "https://www.chucheriascirco.com/",
+    "telephone": "+34851800586",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C/ Río Tinto 13, Las Lagunas",
+      "addressLocality": "Mijas",
+      "addressRegion": "Málaga",
+      "postalCode": "29651",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.5435,
+      "longitude": -4.6285
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "12:00",
+        "closes": "14:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "18:00",
+        "closes": "21:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/circolaslagunas/"
+    ]
+  }
+  </script>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.instagram.com/circolaslagunas/">
+  <meta property="og:title" content="Chucherías Circo | Golosinas Retro y Decoración de Circo">
+  <meta property="og:description" content="Viaja en el tiempo en la tienda de chuches más espectacular de España, inspirada en los años 80 y 90 y decorada como un auténtico circo.">
+  <meta property="og:image" content="assets/images/circus_storefront.webp">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;0,800;1,700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Early Theme Setup (Prevents flickering) -->
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <a href="#" class="logo-brand" aria-label="Volver al inicio">
+        <span class="logo-emoji">🎪</span>
+        <span class="logo-text">Circo<span class="highlight">.</span></span>
+      </a>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-controls="mainNav" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#chucherias" class="nav-link" data-i18n="nav_chucherias">Chucherías</a></li>
+          <li><a href="#eventos" class="nav-link" data-i18n="nav_eventos">Eventos</a></li>
+          <li><a href="#fotos" class="nav-link" data-i18n="nav_fotos">Galería</a></li>
+          <li><a href="#quienes-somos" class="nav-link" data-i18n="nav_quienes_somos">Quiénes Somos</a></li>
+          <li><a href="#prensa" class="nav-link" data-i18n="nav_prensa">Prensa</a></li>
+          <li><a href="#comunidad" class="nav-link" data-i18n="nav_comunidad">Comunidad</a></li>
+          <li><a href="#contacto" class="nav-link" data-i18n="nav_contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Unified Language Selector -->
+        <div class="lang-switcher" role="region" aria-label="Selector de idioma">
+          <a href="?lang=es" class="lang-btn active" data-lang="es" aria-label="Cambiar a Español" title="Español">🇪🇸<span class="lang-code">ES</span></a>
+          <a href="?lang=en" class="lang-btn" data-lang="en" aria-label="Switch to English" title="English">🇬🇧<span class="lang-code">EN</span></a>
+          <a href="?lang=fr" class="lang-btn" data-lang="fr" aria-label="Passer en Français" title="Français">🇫🇷<span class="lang-code">FR</span></a>
+        </div>
+        
+        <a href="https://wa.me/34851800586?text=Hola!%20Me%20gustaria%20saber%20mas%20sobre%20las%20chucherias%20y%20eventos." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-nav">
+          <span data-i18n="nav_btn_visit">¡Visítanos!</span>
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+            <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.182 8.182 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24c-1.44 0-2.85-.38-4.1-1.1l-.3-.17l-3.05.8l.81-2.97l-.19-.3a8.216 8.216 0 0 1-1.25-4.3c.02-4.54 3.72-8.24 8.26-8.24m-3.48 4.72c-.19-.43-.4-.44-.58-.45c-.15 0-.32-.01-.5-.01c-.17 0-.46.06-.7.33c-.24.26-.92.9-.92 2.2c0 1.3.94 2.56 1.07 2.73c.13.17 1.86 2.83 4.5 3.97c.63.27 1.11.43 1.49.56c.63.2 1.21.17 1.66.1c.5-.07 1.54-.63 1.76-1.24c.22-.61.22-1.13.15-1.24c-.07-.1-.26-.17-.56-.32c-.3-.15-1.76-.87-2.03-.97c-.27-.1-.47-.15-.67.15c-.2.3-.78.97-.95 1.17c-.17.2-.35.22-.65.07c-.3-.15-1.27-.47-2.42-1.49c-.89-.8-1.5-1.78-1.67-2.08c-.17-.3-.02-.46.13-.61c.13-.13.3-.35.45-.52c.15-.17.2-.3.3-.5c.1-.2.05-.38-.02-.53c-.07-.15-.58-1.4-0.8-1.92z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge" data-i18n="hero_badge">🎪 El Mayor Espectáculo del Sabor</div>
+          <h1 class="hero-title" data-i18n="hero_title">El Circo de las Chucherías Más Espectacular</h1>
+          <p class="hero-description" data-i18n="hero_description">
+            Haz un viaje mágico en el tiempo hacia los años <strong>80 y 90</strong>. Un universo de golosinas retro, recuerdos de infancia y fantasía circense en Las Lagunas de Mijas, diseñado al detalle por el maestro decorador <strong>Alberto Ortega</strong>.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#chucherias" class="btn btn-primary btn-lg" data-i18n="hero_cta_explore">Explorar Chuches</a>
+            <a href="#quienes-somos" class="btn btn-secondary btn-lg" data-i18n="hero_cta_history">Nuestra Historia</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="circus-marquee-frame">
+            <img src="assets/images/circus_storefront.webp" alt="Fachada espectacular de Chucherías Circo iluminada de noche" class="hero-image" data-i18n-alt="meta_title">
+            <div class="lights-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chucherías Catalog Section -->
+    <section class="chucherias-section" id="chucherias">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="section_chucherias_subtitle">Templo de la Nostalgia</span>
+          <h2 class="section-title" data-i18n="section_chucherias_title">Golosinas Clásicas de los 80 y 90</h2>
+          <p class="section-description" data-i18n="section_chucherias_description">
+            Esas delicias que marcaron tu infancia y que pensaste que nunca volverías a probar. En Chucherías Circo las traemos de vuelta para ti en su ambiente más majestuoso.
+          </p>
+        </div>
+
+        <div class="chucherias-grid">
+          <!-- Item 1 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Bottle body -->
+                <path d="M35,35 L65,35 A5,5 0 0,1 70,40 L70,75 A10,10 0 0,1 60,85 L40,85 A10,10 0 0,1 30,75 L30,40 A5,5 0 0,1 35,35 Z" fill="none" stroke="currentColor" stroke-width="4" />
+                <!-- Liquid inside (Classic blue drink) -->
+                <path d="M32,50 L68,50 L68,75 A8,8 0 0,1 60,83 L40,83 A8,8 0 0,1 32,75 Z" fill="#29b6f6" opacity="0.85"/>
+                <!-- Grooves on plastic -->
+                <line x1="38" y1="58" x2="62" y2="58" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.5" />
+                <line x1="38" y1="68" x2="62" y2="68" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.5" />
+                <!-- Neck -->
+                <rect x="44" y="23" width="12" height="12" fill="none" stroke="currentColor" stroke-width="4" />
+                <!-- Cap -->
+                <rect x="40" y="15" width="20" height="8" rx="2" fill="#fbc02d" stroke="currentColor" stroke-width="3.5" />
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_1_title">Cantimploras</h3>
+            <p class="candy-text" data-i18n="candy_1_text">Las míticas botellitas plásticas con delicioso líquido dulce de sabores. ¡El elixir veraniego de nuestra infancia!</p>
+            <div class="candy-badge" data-i18n="candy_1_badge">Años 80 & 90</div>
+          </article>
+          <!-- Item 2 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Tub body -->
+                <path d="M25,50 L75,50 L70,85 A5,5 0 0,1 65,90 L35,90 A5,5 0 0,1 30,85 Z" fill="#e53935" stroke="currentColor" stroke-width="4" />
+                <!-- White Label -->
+                <rect x="35" y="60" width="30" height="20" rx="3" fill="#ffffff" stroke="currentColor" stroke-width="2.5" />
+                <!-- Logo line on label -->
+                <line x1="42" y1="70" x2="58" y2="70" stroke="#0288d1" stroke-width="3" stroke-linecap="round" />
+                <!-- Lollipop Stick -->
+                <line x1="45" y1="15" x2="45" y2="52" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                <line x1="45" y1="15" x2="45" y2="52" stroke="currentColor" stroke-width="7.5" stroke-linecap="round" style="z-index:-1" />
+                <!-- Heart-shaped cherry lollipop -->
+                <path d="M32,22 C32,13 45,11 45,22 C45,11 58,13 58,22 C58,31 45,41 45,41 C45,41 32,31 32,22 Z" fill="#d32f2f" stroke="currentColor" stroke-width="3" />
+                <!-- White highlight reflection -->
+                <path d="M37,19 A4,4 0 0,1 43,16" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_2_title">Fresquitos</h3>
+            <p class="candy-text" data-i18n="candy_2_text">El emblemático caramelo con palo y sobre de pica-pica para mojar una y otra vez. ¡Diversión pura en cada lametón!</p>
+            <div class="candy-badge" data-i18n="candy_2_badge">Años 90</div>
+          </article>
+          <!-- Item 3 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Stack of Chimos ring candies (green, orange, red) -->
+                <!-- Green bottom candy -->
+                <ellipse cx="50" cy="72" rx="32" ry="13" fill="#4caf50" stroke="currentColor" stroke-width="4" />
+                <ellipse cx="50" cy="72" rx="10" ry="4" fill="var(--bg-secondary)" stroke="currentColor" stroke-width="4" />
+                
+                <!-- Orange middle candy -->
+                <ellipse cx="50" cy="53" rx="32" ry="13" fill="#ff9800" stroke="currentColor" stroke-width="4" />
+                <ellipse cx="50" cy="53" rx="10" ry="4" fill="var(--bg-secondary)" stroke="currentColor" stroke-width="4" />
+                
+                <!-- Red top candy -->
+                <ellipse cx="50" cy="34" rx="32" ry="13" fill="#e53935" stroke="currentColor" stroke-width="4" />
+                <ellipse cx="50" cy="34" rx="10" ry="4" fill="var(--bg-secondary)" stroke="currentColor" stroke-width="4" />
+                <!-- Highlight on top candy -->
+                <path d="M28,32 C30,25 40,23 45,24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_3_title">Chimos</h3>
+            <p class="candy-text" data-i18n="candy_3_text">Los caramelos con agujero que venían en rulo de cinco sabores frutales. Una textura e historia inconfundible.</p>
+            <div class="candy-badge" data-i18n="candy_3_badge">Años 80</div>
+          </article>
+          <!-- Item 4 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Sugus square wrapped candy -->
+                <!-- Left wrapper twist -->
+                <path d="M12,50 L25,38 L25,62 Z" fill="#ab1919" stroke="currentColor" stroke-width="3.5" />
+                <!-- Right wrapper twist -->
+                <path d="M88,50 L75,38 L75,62 Z" fill="#ab1919" stroke="currentColor" stroke-width="3.5" />
+                <!-- Square candy -->
+                <rect x="25" y="28" width="50" height="44" rx="6" fill="#ab1919" stroke="currentColor" stroke-width="4" />
+                <!-- Inner folds wrapper -->
+                <path d="M30,33 L70,33 L70,67 L30,67 Z" fill="none" stroke="#ff8a80" stroke-width="2" opacity="0.4" />
+                <!-- Text "sugus" in wrapper -->
+                <text x="50" y="55" font-family="var(--font-body)" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">sugus</text>
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_4_title">Sugus Masticables</h3>
+            <p class="candy-text" data-i18n="candy_4_text">Los masticables más famosos con envoltorios de colores según su fruta. ¿Quién no recuerda su clásico sabor a piña o limón?</p>
+            <div class="candy-badge" data-i18n="candy_4_badge">Años 80 & 90</div>
+          </article>
+          <!-- Item 5 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Boomer Bubblegum Dispenser (rolled tape) -->
+                <!-- Rolled tape gum peaking out -->
+                <path d="M72,60 C80,60 88,68 88,77 C88,86 80,88 70,88" fill="none" stroke="#f06292" stroke-width="8" stroke-linecap="round" />
+                <!-- Gum strip lines -->
+                <path d="M74,60 C82,60 86,67 86,75" fill="none" stroke="#f8bbd0" stroke-width="4" stroke-linecap="round" />
+                <!-- Round container -->
+                <circle cx="45" cy="45" r="32" fill="#0288d1" stroke="currentColor" stroke-width="4" />
+                <!-- Pink divider on case lid -->
+                <path d="M68,23 A32,32 0 0,1 77,45 L45,45 Z" fill="#e91e63" stroke="currentColor" stroke-width="3" />
+                <!-- Center sticker -->
+                <circle cx="45" cy="45" r="16" fill="#fbc02d" stroke="currentColor" stroke-width="3" />
+                <!-- "B" logo -->
+                <text x="45" y="51" font-family="var(--font-display)" font-weight="900" font-size="18" fill="#d32f2f" text-anchor="middle">B</text>
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_5_title">Chicles Boomer</h3>
+            <p class="candy-text" data-i18n="candy_5_text">El chicle kilométrico que te permitía cortar el trozo que quisieras. Sabor superduradero para hacer globos gigantes.</p>
+            <div class="candy-badge" data-i18n="candy_5_badge">Años 90</div>
+          </article>
+          <!-- Item 6 -->
+          <article class="candy-card">
+            <div class="candy-icon-wrapper">
+              <svg viewBox="0 0 100 100" width="44" height="44" class="candy-svg" aria-hidden="true">
+                <!-- Stick -->
+                <line x1="50" y1="45" x2="50" y2="92" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                <line x1="50" y1="45" x2="50" y2="92" stroke="currentColor" stroke-width="6.5" stroke-linecap="round" />
+                <!-- Round candy head -->
+                <circle cx="50" cy="45" r="30" fill="#d32f2f" stroke="currentColor" stroke-width="4" />
+                <!-- Swirl/spiral details -->
+                <path d="M50,45 A6,6 0 0,0 44,39 A12,12 0 0,0 56,27 A18,18 0 0,0 32,45" fill="none" stroke="#ff8a80" stroke-width="3.5" stroke-linecap="round" />
+                <!-- Cellophane wings representing candy wrap -->
+                <path d="M20,45 L10,35 L10,55 Z" fill="#ffffff" opacity="0.35" stroke="currentColor" stroke-width="2" />
+                <path d="M80,45 L90,35 L90,55 Z" fill="#ffffff" opacity="0.35" stroke="currentColor" stroke-width="2" />
+                <!-- White highlight reflection -->
+                <path d="M30,35 A22,22 0 0,1 55,20" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <h3 class="candy-title" data-i18n="candy_6_title">Piruletas Lolipop</h3>
+            <p class="candy-text" data-i18n="candy_6_text">Piruletas planas con formas circenses y sabor intenso a cereza ácida que te dejaban la lengua pintada de rojo.</p>
+            <div class="candy-badge" data-i18n="candy_6_badge">Años 80</div>
+          </article>
+        </div>
+
+        <!-- Featured Candy Display -->
+        <div class="featured-candy-showcase">
+          <div class="showcase-content">
+            <span class="gold-text-badge" data-i18n="showcase_badge">★ EL ESCAPARATE DE ORO ★</span>
+            <h3 class="showcase-title" data-i18n="showcase_title">Un viaje directo a tus recuerdos</h3>
+            <p class="showcase-text" data-i18n="showcase_text">
+              Nuestros tarros de cristal guardan celosamente las recetas originales de gomitas, caramelos de cuba, regalices, nubes y confituras que creías olvidadas. Ven a contemplar nuestro escaparate y revive la emoción de comprar chuches por pesetas.
+            </p>
+            <a href="#contacto" class="btn btn-outline-gold" data-i18n="showcase_cta">¿Buscas alguna en especial? Consúltanos</a>
+          </div>
+          <div class="showcase-image-wrapper">
+            <img src="assets/images/vintage_candies.webp" alt="Frascos de cristal llenos de golosinas retro en la tienda" class="showcase-image">
+          </div>
+        </div>
+
+        <!-- Gluten Free Showcase -->
+        <div class="featured-candy-showcase">
+          <div class="showcase-image-wrapper">
+            <img src="assets/images/gluten_free_zone.webp" alt="Zona Libre de Gluten en la tienda con frascos llenos de chuches sin alérgenos" class="showcase-image">
+          </div>
+          <div class="showcase-content">
+            <span class="gold-text-badge" data-i18n="gluten_free_badge">★ 100% LIBRE DE GLUTEN ★</span>
+            <h3 class="showcase-title" data-i18n="gluten_free_title">Nuestra Zona Gluten-Free</h3>
+            <p class="showcase-text" data-i18n="gluten_free_text">
+              Porque nadie debe quedarse sin disfrutar del espectáculo del sabor, disponemos de una sección dedicada exclusivamente a golosinas libres de gluten y alérgenos. Cuidamos cada detalle para garantizar la seguridad y evitar la contaminación cruzada.
+            </p>
+            <a href="#contacto" class="btn btn-outline-gold" data-i18n="gluten_free_cta">Consultar opciones para alérgenos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="eventos-section" id="eventos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="section_eventos_subtitle">Espectáculos a Medida</span>
+          <h2 class="section-title" data-i18n="section_eventos_title">Lleva la Magia a tus Eventos</h2>
+          <p class="section-description" data-i18n="section_eventos_description">
+            Hacemos que tus celebraciones sean inolvidables con rincones de fantasía y mesas dulces decoradas con la temática circense más espectacular.
+          </p>
+        </div>
+
+        <div class="eventos-grid">
+          <!-- Card 1 -->
+          <div class="evento-card">
+            <div class="evento-image-placeholder event-gold-bg">
+              <span class="evento-card-emoji">🎪</span>
+            </div>
+            <div class="evento-body">
+              <h3 class="evento-title" data-i18n="event_1_title">Mesas Dulces Premium</h3>
+              <p class="evento-text" data-i18n="event_1_text">Montajes espectaculares decorados al estilo del circo vintage por Alberto Ortega. Una explosión de color y sabor con chuches de época.</p>
+              <ul class="evento-features">
+                <li data-i18n="event_1_feat_1">Decoración circense personalizada</li>
+                <li data-i18n="event_1_feat_2">Surtido exclusivo de chuches retro</li>
+                <li data-i18n="event_1_feat_3">Cartelería de los años 80 y 90</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="evento-card">
+            <div class="evento-image-placeholder event-red-bg">
+              <span class="evento-card-emoji">🎈</span>
+            </div>
+            <div class="evento-body">
+              <h3 class="evento-title" data-i18n="event_2_title">Cumpleaños Temáticos</h3>
+              <p class="evento-text" data-i18n="event_2_text">Celebra un cumpleaños irrepetible rodeado de magia, payasos de adorno clásicos, luces de feria y las golosinas más ricas.</p>
+              <ul class="evento-features">
+                <li data-i18n="event_2_feat_1">Bolsas de chuches vintage exclusivas</li>
+                <li data-i18n="event_2_feat_2">Montaje fotográfico temático (Photocall)</li>
+                <li data-i18n="event_2_feat_3">Tarta de gominolas gigante a medida</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="evento-card">
+            <div class="evento-image-placeholder event-purple-bg">
+              <span class="evento-card-emoji">💍</span>
+            </div>
+            <div class="evento-body">
+              <h3 class="evento-title" data-i18n="event_3_title">Bodas y Comuniones VIP</h3>
+              <p class="evento-text" data-i18n="event_3_text">Carritos de chuches con iluminación de feria clásica y una selección de dulces gourmet que asombrará a niños y adultos.</p>
+              <ul class="evento-features">
+                <li data-i18n="event_3_feat_1">Carrito de circo retro con luces LED</li>
+                <li data-i18n="event_3_feat_2">Servicio de reposición durante el evento</li>
+                <li data-i18n="event_3_feat_3">Opciones sin gluten y sin alérgenos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="fotos">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="section_gallery_subtitle">Galería Visual</span>
+          <h2 class="section-title" data-i18n="section_gallery_title">El Espectáculo por Dentro</h2>
+          <p class="section-description" data-i18n="section_gallery_description">
+            Cada rincón de nuestra tienda en Las Lagunas de Mijas es una obra de arte decorativa. Aquí tienes una muestra de nuestra atmósfera mágica.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item large">
+            <img src="assets/images/circus_storefront.webp" alt="Fachada iluminada de Chucherías Circo">
+            <div class="gallery-overlay">
+              <h4 data-i18n="gallery_1_title">La Entrada Mágica</h4>
+              <p data-i18n="gallery_1_text">Iluminada para guiarte al mundo de los recuerdos.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/vintage_candies.webp" alt="Frascos con dulces clásicos">
+            <div class="gallery-overlay">
+              <h4 data-i18n="gallery_2_title">Tarros de Cristal</h4>
+              <p data-i18n="gallery_2_text">Elixires de sabor listos para disfrutar.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/store_interior.webp" alt="Decoración artesanal inspirada en circo clásico en el interior de la tienda">
+            <div class="gallery-overlay">
+              <h4 data-i18n="gallery_3_title">El Arte del Circo</h4>
+              <p data-i18n="gallery_3_text">Detalles decorados a mano inspirados en el circo clásico.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-svg-placeholder pattern-stars">
+              <div class="placeholder-content">
+                <span class="place-emoji">💫</span>
+                <h5 data-i18n="gallery_4_label">Iluminación Espectacular</h5>
+              </div>
+            </div>
+            <div class="gallery-overlay">
+              <h4 data-i18n="gallery_4_title">Luces de Marquesina</h4>
+              <p data-i18n="gallery_4_text">El brillo y glamour de los mejores espectáculos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us / Quiénes Somos -->
+    <section class="quienes-somos-section" id="quienes-somos">
+      <div class="container grid-2">
+        <div class="about-images">
+          <div class="image-stack-wrapper">
+            <div class="about-svg-badge">
+              <div class="badge-content">
+                <span class="badge-number" data-i18n="about_badge_num">100%</span>
+                <span class="badge-text" data-i18n="about_badge_text">Decoración Artesanal</span>
+              </div>
+            </div>
+            <div class="about-image-card">
+              <img src="assets/images/store_interior.webp" alt="Interior espectacular de Chucherías Circo decorado por Alberto Ortega" class="about-img-main">
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-subtitle" data-i18n="section_about_subtitle">¿Quiénes Somos?</span>
+          <h2 class="section-title" data-i18n="section_about_title">El Creador de Fantasías: Alberto Ortega</h2>
+          <p data-i18n="section_about_p1">
+            <strong>Chucherías Circo</strong> no es una simple tienda de golosinas; es un portal en el tiempo y un espacio de arte. Fundada y decorada íntegramente por <strong>Alberto Ortega</strong>, decorador profesional apasionado del diseño retro y la magia del circo clásico.
+          </p>
+          <p data-i18n="section_about_p2">
+            Cansado del diseño moderno minimalista y frío, Alberto decidió construir en Las Lagunas de Mijas un rincón opulento, lleno de color, luces de feria y rayas rojas y blancas, donde los adultos puedan volver a ser niños al contemplar los escaparates y oler el aroma dulce de las chucherías que marcaron su juventud.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <span class="pillar-icon">🎪</span>
+              <div>
+                <h4 data-i18n="pillar_1_title">Espacio de Autor</h4>
+                <p data-i18n="pillar_1_text">Cada rincón, estantería y figura ha sido seleccionada y restaurada a mano.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">🍭</span>
+              <div>
+                <h4 data-i18n="pillar_2_title">Autenticidad Retro</h4>
+                <p data-i18n="pillar_2_text">Nos esforzamos por encontrar los proveedores de las chuches originales de tu infancia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Press / Prensa Section -->
+    <section class="prensa-section" id="prensa">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="section_prensa_subtitle">Presencia en Medios</span>
+          <h2 class="section-title" data-i18n="section_prensa_title">Lo que dicen de nosotros</h2>
+          <p class="section-description" data-i18n="section_prensa_description">
+            Nuestra pasión por revivir los dulces clásicos y nuestra espectacular ambientación circense han captado la atención de los medios de comunicación.
+          </p>
+        </div>
+
+        <div class="prensa-grid">
+          <!-- Card 1: Mijas Comunicación -->
+          <article class="prensa-card">
+            <div class="prensa-card-header">
+              <div class="prensa-meta">
+                <span class="prensa-media" data-i18n="press_1_media">Mijas Comunicación</span>
+                <span class="prensa-date" data-i18n="press_1_date">Octubre 2023</span>
+              </div>
+              <span class="prensa-badge" data-i18n="press_1_badge">Ruta de la Tapa</span>
+            </div>
+            <div class="prensa-card-body">
+              <h3 class="prensa-card-title" data-i18n="press_1_title">El maravilloso mundo de 'Circo', la tienda de chuches que participa en la Ruta de la Tapa</h3>
+              <p class="prensa-card-text" data-i18n="press_1_text">Chucherías Circo participa en la Ruta de la Tapa de Las Lagunas ofreciendo una original propuesta dulce que combina nostalgia y sabor en una bolsa mágica inspirada en los años 80 y 90.</p>
+            </div>
+            <div class="prensa-card-footer">
+              <a href="https://mijascomunicacion.com/actualidad/32699/el-maravilloso-mundo-del-circo-la-tienda-de-chuches-que-participa-en-la-ruta-de-la-tapa/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm btn-press">
+                <span data-i18n="press_1_cta">Leer Artículo Completo</span>
+                <svg class="icon icon-external" viewBox="0 0 24 24" width="14" height="14">
+                  <path fill="currentColor" d="M14 3h7v7h-2V6.4l-9.3 9.3l-1.4-1.4L17.6 5H14V3zm-2 11h-2v4h8v-8h-4v2h2v4h-4v-4z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Diario Sur -->
+          <article class="prensa-card">
+            <div class="prensa-card-header">
+              <div class="prensa-meta">
+                <span class="prensa-media" data-i18n="press_2_media">Diario Sur</span>
+                <span class="prensa-date" data-i18n="press_2_date">Diciembre 2023</span>
+              </div>
+              <span class="prensa-badge badge-sur" data-i18n="press_2_badge">Reportaje Especial</span>
+            </div>
+            <div class="prensa-card-body">
+              <h3 class="prensa-card-title" data-i18n="press_2_title">Chucherías Circo: el 'Wonka' de Mijas que rescata las golosinas de los años 80 y 90</h3>
+              <p class="prensa-card-text" data-i18n="press_2_text">El decorador Alberto Ortega ha creado en Las Lagunas de Mijas un templo de la nostalgia donde los adultos vuelven a ser niños rodeados de golosinas retro descatalogadas y una deslumbrante ambientación de circo clásico.</p>
+            </div>
+            <div class="prensa-card-footer">
+              <a href="https://www.diariosur.es/costadelsol/chucherias-circo-wonka-mijas-rescatan-golosinas-anos-20231219003352-nt.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm btn-press">
+                <span data-i18n="press_2_cta">Leer Artículo Completo</span>
+                <svg class="icon icon-external" viewBox="0 0 24 24" width="14" height="14">
+                  <path fill="currentColor" d="M14 3h7v7h-2V6.4l-9.3 9.3l-1.4-1.4L17.6 5H14V3zm-2 11h-2v4h8v-8h-4v2h2v4h-4v-4z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Comunidad Section -->
+    <section class="comunidad-section" id="comunidad">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle" data-i18n="section_testimonials_subtitle">La Voz del Público</span>
+          <h2 class="section-title" data-i18n="section_testimonials_title">Nuestra Gran Familia de Espectadores</h2>
+          <p class="section-description" data-i18n="section_testimonials_description">
+            Mira lo que dicen quienes nos han visitado desde toda España. ¡Y comparte tu propia experiencia mágica con nosotros!
+          </p>
+        </div>
+
+        <div class="comunidad-grid">
+          <!-- Testimonials List -->
+          <div class="testimonials-container">
+            <h3 class="subsection-title" data-i18n="testimonial_list_title">Reseñas del Público</h3>
+            <div class="testimonials-list" id="testimonialsList">
+              <!-- Hardcoded premium reviews -->
+              <article class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="user-info">
+                    <span class="user-avatar">AM</span>
+                    <div>
+                      <h4 class="user-name">Ana M.</h4>
+                      <span class="user-location">Fuengirola</span>
+                    </div>
+                  </div>
+                  <div class="star-rating-display" aria-label="5 de 5 estrellas">
+                    ★★★★★
+                  </div>
+                </div>
+                <p class="testimonial-text" data-i18n="review_1_text">"Entrar en Chucherías Circo es llorar de emoción. Volví a comprar los chimos y los fresquitos que comía de niña en el colegio. Y la decoración es digna de un museo."</p>
+                <span class="testimonial-date" data-i18n="review_1_date">Hace 2 días</span>
+              </article>
+
+              <article class="testimonial-card">
+                <div class="testimonial-header">
+                  <div class="user-info">
+                    <span class="user-avatar">CO</span>
+                    <div>
+                      <h4 class="user-name">Carlos O.</h4>
+                      <span class="user-location">Mijas</span>
+                    </div>
+                  </div>
+                  <div class="star-rating-display" aria-label="5 de 5 estrellas">
+                    ★★★★★
+                  </div>
+                </div>
+                <p class="testimonial-text" data-i18n="review_2_text">"La mejor tienda de chuches de España sin duda alguna. Alberto Ortega ha hecho un trabajo de decoración alucinante. ¡El trato es de diez!"</p>
+                <span class="testimonial-date" data-i18n="review_2_date">Hace 1 semana</span>
+              </article>
+            </div>
+          </div>
+
+          <!-- Add Review Form -->
+          <div class="add-review-container">
+            <h3 class="subsection-title" data-i18n="testimonial_form_title">Déjanos tu Reseña</h3>
+            <form id="reviewForm" class="review-form" novalidate>
+              <div class="form-group">
+                <label for="reviewName" data-i18n="form_name_label">Tu Nombre *</label>
+                <input type="text" id="reviewName" name="name" required placeholder="Ej. Javier Gómez" data-i18n-placeholder="form_name_placeholder">
+                <span class="error-msg" id="nameError" data-i18n="form_error_name">El nombre es obligatorio.</span>
+              </div>
+              <div class="form-group">
+                <label for="reviewLocation" data-i18n="form_location_label">Tu Ciudad</label>
+                <input type="text" id="reviewLocation" name="location" placeholder="Ej. Las Lagunas" data-i18n-placeholder="form_location_placeholder">
+              </div>
+              <div class="form-group">
+                <label data-i18n="form_rating_label">Tu Valoración *</label>
+                <div class="star-rating-input" id="starRatingInput" role="radiogroup" aria-label="Valoración por estrellas">
+                  <button type="button" class="star-btn" data-value="1" aria-label="1 estrella">★</button>
+                  <button type="button" class="star-btn" data-value="2" aria-label="2 estrellas">★</button>
+                  <button type="button" class="star-btn" data-value="3" aria-label="3 estrellas">★</button>
+                  <button type="button" class="star-btn" data-value="4" aria-label="4 estrellas">★</button>
+                  <button type="button" class="star-btn" data-value="5" aria-label="5 estrellas">★</button>
+                </div>
+                <span class="error-msg" id="ratingError" data-i18n="form_error_rating">Por favor, selecciona una valoración.</span>
+              </div>
+              <div class="form-group">
+                <label for="reviewText" data-i18n="form_text_label">Cuéntanos tu experiencia *</label>
+                <textarea id="reviewText" name="text" required placeholder="¿Qué chuchería te trajo más recuerdos?" rows="4" data-i18n-placeholder="form_text_placeholder"></textarea>
+                <span class="error-msg" id="textError" data-i18n="form_error_text">La experiencia es obligatoria.</span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="reviewSubmitBtn" data-i18n="form_submit_btn">Enviar al Escenario</button>
+            </form>
+            <div id="reviewSuccess" class="success-alert hidden">
+              <span class="success-icon">✨</span>
+              <div>
+                <h4 data-i18n="form_success_title">¡Reseña Recibida!</h4>
+                <p data-i18n="form_success_text">Tu experiencia ha sido guardada en nuestra marquesina local. ¡Muchas gracias por tu aplauso!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section (Boleto Dorado) -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="golden-ticket-container">
+          <div class="ticket-border ticket-border-left"></div>
+          <div class="ticket-border ticket-border-right"></div>
+          <div class="ticket-content">
+            <div class="ticket-header">
+              <span class="ticket-sub" data-i18n="newsletter_sub">ADMISIÓN VIP</span>
+              <h3 class="ticket-title" data-i18n="newsletter_title">Consigue tu Boleto Dorado</h3>
+              <p data-i18n="newsletter_text">
+                Suscríbete a nuestro boletín para recibir noticias sobre llegada de nuevas chucherías retro, eventos y promociones exclusivas.
+              </p>
+            </div>
+            <form id="newsletterForm" class="ticket-form" novalidate>
+              <div class="ticket-input-group">
+                <input type="email" id="newsletterEmail" required placeholder="Tu correo electrónico" aria-label="Correo electrónico para boletín" data-i18n-placeholder="newsletter_placeholder">
+                <button type="submit" class="btn btn-dark" data-i18n="newsletter_btn">Recibir Pase VIP</button>
+              </div>
+              <span class="error-msg" id="newsletterError" data-i18n="newsletter_error">Introduce un correo electrónico válido.</span>
+            </form>
+            <div id="newsletterSuccess" class="ticket-success hidden">
+              <span class="ticket-success-emoji">🎟️</span>
+              <h4 data-i18n="newsletter_success_title">¡Boleto Dorado Activado!</h4>
+              <p data-i18n="newsletter_success_text">Ya formas parte de la lista VIP del Circo. Te enviaremos novedades mágicas muy pronto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section class="contacto-section" id="contacto">
+      <div class="container grid-2">
+        <div class="contact-info-panel">
+          <span class="section-subtitle" data-i18n="section_contact_subtitle">Contacto</span>
+          <h2 class="section-title" data-i18n="section_contact_title">¡Te Esperamos en el Recinto!</h2>
+          <p class="contact-intro" data-i18n="contact_intro">
+            Ven a visitarnos y sorpréndete con los colores, olores y sabores de la tienda de chuches más espectacular. Estaremos encantados de atenderte en Las Lagunas de Mijas.
+          </p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <h4 data-i18n="contact_address_title">Dirección</h4>
+                <p data-i18n="contact_address_text">C/ Río Tinto 13, Las Lagunas, Mijas, Andalucía, España 29651</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <h4 data-i18n="contact_phone_title">Teléfono de Contacto</h4>
+                <p><a href="tel:851800586" class="contact-link">851 80 05 86</a></p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <span class="contact-icon">⏰</span>
+              <div>
+                <h4 data-i18n="contact_hours_title">Horarios de Apertura</h4>
+                <p data-i18n="contact_hours_text"><strong>Lunes a Sábado:</strong> 12:00h - 14:00h | 18:00h - 21:00h</p>
+                <p class="hours-sub" data-i18n="contact_hours_sub">Domingos cerrado por descanso de los artistas.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links-row">
+            <a href="https://www.instagram.com/circolaslagunas/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Síguenos en Instagram">
+              <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m8.9 1.5a1 1 0 1 1 0 2a1 1 0 0 1 0-2M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6a3 3 0 0 0 0-6z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/34851800586?text=Hola!%20Me%20gustaria%20saber%20mas%20sobre%20las%20chucherias%20y%20eventos." target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Escríbenos en WhatsApp">
+              <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.182 8.182 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24c-1.44 0-2.85-.38-4.1-1.1l-.3-.17l-3.05.8l.81-2.97l-.19-.3a8.216 8.216 0 0 1-1.25-4.3c.02-4.54 3.72-8.24 8.26-8.24m-3.48 4.72c-.19-.43-.4-.44-.58-.45c-.15 0-.32-.01-.5-.01c-.17 0-.46.06-.7.33c-.24.26-.92.9-.92 2.2c0 1.3.94 2.56 1.07 2.73c.13.17 1.86 2.83 4.5 3.97c.63.27 1.11.43 1.49.56c.63.2 1.21.17 1.66.1c.5-.07 1.54-.63 1.76-1.24c.22-.61.22-1.13.15-1.24c-.07-.1-.26-.17-.56-.32c-.3-.15-1.76-.87-2.03-.97c-.27-.1-.47-.15-.67.15c-.2.3-.78.97-.95 1.17c-.17.2-.35.22-.65.07c-.3-.15-1.27-.47-2.42-1.49c-.89-.8-1.5-1.78-1.67-2.08c-.17-.3-.02-.46.13-.61c.13-.13.3-.35.45-.52c.15-.17.2-.3.3-.5c.1-.2.05-.38-.02-.53c-.07-.15-.58-1.4-0.8-1.92z"/>
+              </svg>
+            </a>
+            <a href="mailto:hola@chucheriascirco.com" class="social-icon-btn" aria-label="Envíanos un correo electrónico">
+              <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5l-8-5V6l8 5l8-5v2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="map-panel">
+          <div class="map-card-wrapper">
+            <!-- OpenStreetMap embed (focused on Las Lagunas Mijas) -->
+            <iframe 
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-4.63600%2C36.53800%2C-4.62100%2C36.54900&amp;layer=mapnik&amp;marker=36.54350%2C-4.62850" 
+              class="osm-map" 
+              title="Ubicación de Chucherías Circo en Las Lagunas de Mijas"
+              loading="lazy">
+            </iframe>
+            <div class="map-overlay">
+              <p>📍 C/ Río Tinto 13, Las Lagunas, Mijas</p>
+              <a href="https://www.openstreetmap.org/?mlat=36.54350&amp;mlon=-4.62850#map=17/36.54350/-4.62850" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Abrir Mapa Completo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo-brand">
+          <span class="logo-emoji">🎪</span>
+          <span class="logo-text">Circo<span class="highlight">.</span></span>
+        </a>
+        <p class="footer-tagline" data-i18n="footer_tagline">La tienda de golosinas retro más espectacular de España, inspirada en los años 80 y 90 y decorada con el alma del circo clásico.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4 data-i18n="footer_nav_title">Navegación</h4>
+        <ul>
+          <li><a href="#chucherias" data-i18n="nav_chucherias">Chucherías</a></li>
+          <li><a href="#eventos" data-i18n="nav_eventos">Eventos</a></li>
+          <li><a href="#fotos" data-i18n="nav_fotos">Fotos</a></li>
+          <li><a href="#quienes-somos" data-i18n="nav_quienes_somos">Quiénes Somos</a></li>
+          <li><a href="#prensa" data-i18n="nav_prensa">Prensa</a></li>
+          <li><a href="#comunidad" data-i18n="nav_comunidad">Comunidad</a></li>
+          <li><a href="#contacto" data-i18n="nav_contacto">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact-info">
+        <h4 data-i18n="footer_contact_title">Contacto Directo</h4>
+        <ul>
+          <li>📞 <a href="tel:851800586">851 80 05 86</a></li>
+          <li>✉️ <a href="mailto:hola@chucheriascirco.com">hola@chucheriascirco.com</a></li>
+          <li>📍 C/ Río Tinto 13, Las Lagunas, Mijas, España</li>
+          <li>📸 <a href="https://www.instagram.com/circolaslagunas/" target="_blank" rel="noopener noreferrer">@circolaslagunas</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p data-i18n="footer_copyright">&copy; 2026 Chucherías Circo. Todos los derechos reservados. Diseñado bajo la temática circense clásica.</p>
+        <p data-i18n="footer_author">Creado por el Decorador <strong>Alberto Ortega</strong>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Selector UI -->
+  <div class="theme-selector-container" role="region" aria-label="Selector de tema visual" data-i18n-label="theme_region_label">
+    <div class="theme-selector-trigger" id="themeTrigger" aria-label="Configurar tema visual">
+      <svg class="icon" viewBox="0 0 24 24" width="20" height="20">
+        <path fill="currentColor" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m-1-13h2v6h-2V7m0 8h2v2h-2v-2z"/>
+      </svg>
+    </div>
+    <div class="theme-buttons-panel">
+      <button class="theme-btn" data-theme-value="light" aria-label="Activar modo claro" title="Modo Claro" data-i18n-title="theme_btn_light">
+        <span class="theme-icon">☀️</span>
+      </button>
+      <button class="theme-btn" data-theme-value="dark" aria-label="Activar modo oscuro" title="Modo Oscuro" data-i18n-title="theme_btn_dark">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <button class="theme-btn" data-theme-value="auto" aria-label="Activar tema del sistema" title="Tema del Sistema" data-i18n-title="theme_btn_auto">
+        <span class="theme-icon">⚙️</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Business Interaction Logic -->
+  <script src="translations.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
