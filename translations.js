@@ -5,8 +5,11 @@
 
 window.circoTranslations = {
   es: {
+    google_reviews_update: "Selección actualizada manualmente. Consultada el 3 de octubre de 2026.",
+    google_reviews_source: "Ver en Google",
+    google_reviews_excerpt: "Extracto de una reseña de Google",
     google_reviews_cta: "Ver reseñas en Google",
-    google_reviews_intro: "Las opiniones de nuestros visitantes están en Google. Consulta sus experiencias y comparte la tuya.",
+    google_reviews_intro: "Una selección de opiniones reales de nuestros visitantes en Google. Los extractos se muestran en su idioma original.",
     meta_description: "Chucherías Circo es la mejor tienda de chuches de España. Descubre nuestro templo de golosinas retro de los años 80 y 90, decorado espectacularmente por Alberto Ortega en Las Lagunas, Mijas.",
     meta_keywords: "chucherias, golosinas retro, caramelos años 80, chuches años 90, circo, alberto ortega, mijas, las lagunas, tienda chucherias espectacular",
     nav_chucherias: "Chucherías",
@@ -131,8 +134,11 @@ window.circoTranslations = {
     press_2_cta: "Leer Artículo Completo"
   },
   en: {
+    google_reviews_update: "Manually updated selection. Checked on 3 October 2026.",
+    google_reviews_source: "View on Google",
+    google_reviews_excerpt: "Excerpt from a Google review",
     google_reviews_cta: "Read reviews on Google",
-    google_reviews_intro: "Our visitors share their experiences on Google. Read their reviews and share your own.",
+    google_reviews_intro: "A selection of real visitor reviews from Google. Excerpts are shown in their original language.",
     meta_description: "Chucherías Circo is the most spectacular candy store in Spain. Discover our retro sweets temple from the 80s and 90s, beautifully decorated by Alberto Ortega in Las Lagunas, Mijas.",
     meta_keywords: "candies, retro sweets, 80s candies, 90s candy, circus, alberto ortega, mijas, las lagunas, spectacular candy store",
     nav_chucherias: "Candies",
@@ -257,8 +263,11 @@ window.circoTranslations = {
     press_2_cta: "Read Full Article"
   },
   fr: {
+    google_reviews_update: "Sélection mise à jour manuellement. Consultée le 3 octobre 2026.",
+    google_reviews_source: "Voir sur Google",
+    google_reviews_excerpt: "Extrait d’un avis Google",
     google_reviews_cta: "Voir les avis sur Google",
-    google_reviews_intro: "Nos visiteurs partagent leurs expériences sur Google. Consultez leurs avis et partagez le vôtre.",
+    google_reviews_intro: "Une sélection d’avis réels de nos visiteurs sur Google. Les extraits sont présentés dans leur langue d’origine.",
     meta_description: "Chucherías Circo est la confiserie la plus spectaculaire d'Espagne. Découvrez notre temple de bonbons rétro des années 80 et 90, magnifiquement décoré par Alberto Ortega à Las Lagunas, Mijas.",
     meta_keywords: "bonbons, bonbons rétro, bonbons années 80, bonbons années 90, cirque, alberto ortega, mijas, las lagunas, confiserie spectaculaire",
     nav_chucherias: "Bonbons",
