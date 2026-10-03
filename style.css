@@ -1336,134 +1336,6 @@ section {
 }
 
 /* -------------------------------------------------------------
-   NEWSLETTER SECTION (BOLETO DORADO)
-------------------------------------------------------------- */
-.newsletter-section {
-  position: relative;
-  background-color: var(--bg-secondary);
-}
-
-.golden-ticket-container {
-  position: relative;
-  background-color: var(--ticket-bg);
-  border: 3px solid var(--ticket-border);
-  border-radius: var(--radius-md);
-  padding: var(--space-lg) var(--space-md);
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(207, 161, 60, 0.1);
-  overflow: hidden;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-/* Punch ticket side effects */
-.ticket-border {
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  height: 30px;
-  background-color: var(--bg-secondary);
-  border: 3px solid var(--ticket-border);
-  border-radius: var(--radius-round);
-}
-
-.ticket-border-left {
-  left: -18px;
-  transform: translateY(-50%);
-  border-left-color: transparent;
-}
-
-.ticket-border-right {
-  right: -18px;
-  transform: translateY(-50%);
-  border-right-color: transparent;
-}
-
-.ticket-content {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  z-index: 2;
-  position: relative;
-}
-
-.ticket-sub {
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  color: var(--color-gold);
-  display: block;
-  margin-bottom: 6px;
-}
-
-.ticket-title {
-  font-size: 2rem;
-  color: var(--ticket-text);
-  margin-bottom: var(--space-sm);
-}
-
-.ticket-content p {
-  color: var(--text-secondary);
-  font-size: 0.95rem;
-  margin-bottom: var(--space-md);
-}
-
-.ticket-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.ticket-input-group {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 450px;
-  gap: 10px;
-}
-
-@media (min-width: 576px) {
-  .ticket-input-group {
-    flex-direction: row;
-    background-color: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    padding: 6px;
-    border-radius: 40px;
-  }
-
-  .ticket-input-group input {
-    border: none !important;
-    background: transparent !important;
-  }
-}
-
-.ticket-input-group input {
-  flex-grow: 1;
-  padding: 12px 20px;
-  border-radius: 30px;
-  border: 1px solid var(--border-color);
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  background-color: var(--bg-secondary);
-  color: var(--text-primary);
-}
-
-.ticket-input-group input:focus {
-  outline: none;
-}
-
-.ticket-success {
-  animation: slideDown 0.3s ease-out forwards;
-}
-
-.ticket-success-emoji {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 10px;
-  animation: float 2s infinite;
-}
-
-/* -------------------------------------------------------------
    CONTACT & MAP SECTION
 ------------------------------------------------------------- */
 .contact-info-panel {
@@ -2049,3 +1921,12 @@ section {
   box-shadow: var(--shadow-md), 0 10px 25px rgba(207, 161, 60, 0.1);
 }
 
+
+/* Brand artwork and Google reviews */
+.hero-logo { object-fit: contain; background: #fff; padding: 12px; filter: none; }
+.gallery-item .gallery-logo { object-fit: contain; background: #fff; padding: 18px; }
+.logo-img { object-fit: contain; border-radius: 0; }
+.google-reviews-panel { max-width: 900px; margin: 0 auto; text-align: center; }
+.google-reviews-panel p { color: var(--text-secondary); margin-bottom: var(--space-md); }
+.google-reviews-widget:empty { display: none; }
+.google-reviews-widget { margin-bottom: var(--space-md); }

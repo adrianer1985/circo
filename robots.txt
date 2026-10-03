@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.chucheriascirco.com/sitemap.xml
+Sitemap: https://www.circochucherias.com/sitemap.xml
