@@ -1958,3 +1958,8 @@ section {
 @media (max-width: 640px) { .own-products-grid { grid-template-columns: 1fr; } }
 .own-products { scroll-margin-top: 110px; }
 .own-product-photo.chips img { clip-path: inset(4px 0 0); }
+
+.circus-music { position: fixed; bottom: 22px; left: 20px; z-index: 90; padding: 10px 15px; border-radius: 30px; border: 2px solid #c9a55c; background: #fff9ec; color: #842020; font: inherit; font-size: 14px; cursor: pointer; box-shadow: 0 3px 14px #0002; }
+.circus-music[aria-pressed="true"] { background: #842020; color: #fff9ec; }
+.circus-music:focus-visible { outline: 3px solid #c9a55c; outline-offset: 3px; }
+@media (max-width: 640px) { .circus-music { left: 12px; bottom: 16px; font-size: 12px; } }

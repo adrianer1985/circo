@@ -155,7 +155,8 @@ window.circoTranslations = {
     "own_almonds_title": "Almendras garrapiñadas Circo",
     "own_almonds_text": "Nuestras almendras garrapiñadas, presentadas en botes de cristal con el sello de Circo. Un detalle para regalar o disfrutar.",
     "own_almonds_alt": "Botes de almendras garrapiñadas de la marca Circo",
-    "own_almonds_message": "Hola, me gustaría consultar la disponibilidad de las almendras garrapiñadas Circo."
+    "own_almonds_message": "Hola, me gustaría consultar la disponibilidad de las almendras garrapiñadas Circo.",
+    "music_label": "Música circense"
   },
   "en": {
     "google_reviews_update": "Manually updated selection. Checked on 3 October 2026.",
@@ -312,7 +313,8 @@ window.circoTranslations = {
     "own_almonds_title": "Circo candied almonds",
     "own_almonds_text": "Our candied almonds, presented in glass jars bearing the Circo label. A lovely gift or a treat for yourself.",
     "own_almonds_alt": "Glass jars of Circo candied almonds",
-    "own_almonds_message": "Hello, I would like to check the availability of Circo candied almonds."
+    "own_almonds_message": "Hello, I would like to check the availability of Circo candied almonds.",
+    "music_label": "Circus music"
   },
   "fr": {
     "google_reviews_update": "Sélection mise à jour manuellement. Consultée le 3 octobre 2026.",
@@ -469,6 +471,7 @@ window.circoTranslations = {
     "own_almonds_title": "Amandes caramélisées Circo",
     "own_almonds_text": "Nos amandes caramélisées, présentées dans des bocaux en verre à l’effigie de Circo. Une douceur à offrir ou à savourer.",
     "own_almonds_alt": "Bocaux d’amandes caramélisées de la marque Circo",
-    "own_almonds_message": "Bonjour, je souhaiterais connaître la disponibilité des amandes caramélisées Circo."
+    "own_almonds_message": "Bonjour, je souhaiterais connaître la disponibilité des amandes caramélisées Circo.",
+    "music_label": "Musique de cirque"
   }
 };
