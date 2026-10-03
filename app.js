@@ -56,6 +56,19 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    // Translate accessible labels and image descriptions as well as visible text.
+    [['data-i18n-label', 'aria-label'], ['data-i18n-alt', 'alt']].forEach(([attribute, target]) => {
+      document.querySelectorAll(`[${attribute}]`).forEach(el => {
+        const value = dictionary[el.getAttribute(attribute)];
+        if (value !== undefined) el.setAttribute(target, value);
+      });
+    });
+    document.querySelectorAll('a[href*="wa.me/"]').forEach(link => {
+      const url = new URL(link.href);
+      url.searchParams.set('text', dictionary.whatsapp_message);
+      link.href = url.toString();
+    });
+
     // 4. Update language active button states
     document.querySelectorAll('.lang-btn').forEach((btn) => {
       if (btn.getAttribute('data-lang') === lang) {
@@ -74,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Custom title templates based on language if not in dictionary
       const titles = {
         es: 'Chucherías Circo | El Templo de la Golosina Retro en Mijas',
-        en: 'Chucherías Circo | The Retro Candy Temple in Mijas',
+        en: 'Chucherías Circo | The Retro Sweet Shop in Mijas',
         fr: 'Chucherías Circo | Le Temple des Bonbons Rétro à Mijas'
       };
       document.title = titles[lang] || titles.es;
@@ -100,6 +113,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Apply default language on load
   applyTranslations(currentLang);
+  window.addEventListener('popstate', () => {
+    const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+    applyTranslations(['es', 'en', 'fr'].includes(lang) ? lang : 'es');
+  });
 
 
   /* ==========================================================================
@@ -130,5 +147,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+
+  // The four-second display period starts only when the poster is visible.
+  const announcement = document.getElementById('announcementDialog');
+  const announcementImage = document.getElementById('announcementImage');
+  const announcementClose = document.getElementById('announcementClose');
+  if (announcement && announcementImage && announcementClose) {
+    let closeTimer;
+    let shown = false;
+    const showAnnouncement = () => {
+      if (shown || !announcementImage.naturalWidth) return;
+      shown = true;
+      announcement.showModal();
+      closeTimer = window.setTimeout(() => {
+        if (announcement.open) announcement.close();
+      }, 4000);
+    };
+    announcementClose.addEventListener('click', () => announcement.close());
+    announcement.addEventListener('close', () => window.clearTimeout(closeTimer));
+    if (announcementImage.complete) showAnnouncement();
+    else announcementImage.addEventListener('load', showAnnouncement, { once: true });
+  }
 
 });
