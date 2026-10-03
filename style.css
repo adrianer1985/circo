@@ -1959,7 +1959,9 @@ section {
 .own-products { scroll-margin-top: 110px; }
 .own-product-photo.chips img { clip-path: inset(4px 0 0); }
 
-.circus-music { position: fixed; bottom: 22px; left: 20px; z-index: 90; padding: 10px 15px; border-radius: 30px; border: 2px solid #c9a55c; background: #fff9ec; color: #842020; font: inherit; font-size: 14px; cursor: pointer; box-shadow: 0 3px 14px #0002; }
+.circus-music { position: static; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 42px; height: 42px; padding: 0; border-radius: 50%; border: 1px solid #c9a55c; background: #fff9ec; color: #842020; cursor: pointer; }
 .circus-music[aria-pressed="true"] { background: #842020; color: #fff9ec; }
+.circus-music .music-audible, .circus-music[aria-pressed="true"] .music-muted { display: none; }
+.circus-music[aria-pressed="true"] .music-audible { display: inline; }
 .circus-music:focus-visible { outline: 3px solid #c9a55c; outline-offset: 3px; }
-@media (max-width: 640px) { .circus-music { left: 12px; bottom: 16px; font-size: 12px; } }
+@media (min-width: 1025px) { .circus-music { order: 3; } }

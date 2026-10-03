@@ -38,7 +38,6 @@
     voices.forEach(voice => { try { voice.stop(); } catch (_) { /* Already finished. */ } });
     voices.clear();
     button.setAttribute('aria-pressed', 'false');
-    button.querySelector('[aria-hidden]').textContent = '🎵';
   }
   button.addEventListener('click', async () => {
     if (pending) return;
@@ -50,7 +49,6 @@
       if (document.hidden) return;
       playing = true;
       button.setAttribute('aria-pressed', 'true');
-      button.querySelector('[aria-hidden]').textContent = '🔊';
       schedule();
     } catch (_) { stop(); }
     finally { pending = false; }

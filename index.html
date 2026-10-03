@@ -105,6 +105,13 @@
         <span class="logo-text">Circo<span class="highlight">.</span></span>
       </a>
       
+      <button type="button" id="circusMusic" class="circus-music" aria-pressed="false" aria-label="Música circense" data-i18n-label="music_label" title="Música circense" data-i18n-title="music_label">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 5 6 9H3v6h3l5 4Z"/>
+          <g class="music-muted"><path d="m16 9 5 6m0-6-5 6"/></g>
+          <g class="music-audible"><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></g>
+        </svg>
+      </button>
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" data-i18n-label="nav_open" aria-controls="mainNav" aria-expanded="false">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
@@ -760,9 +767,6 @@
     <img id="announcementImage" src="assets/images/announcement-corte-ingles.webp" alt="Anuncio de Circo Chuches: también estamos en El Corte Inglés, Málaga." data-i18n-alt="announcement_alt" width="1357" height="1159">
   </dialog>
 
-  <button type="button" id="circusMusic" class="circus-music" aria-pressed="false" aria-label="Música circense" data-i18n-label="music_label">
-    <span aria-hidden="true">🎵</span> <span data-i18n="music_label">Música circense</span>
-  </button>
   <!-- Business Interaction Logic -->
   <script src="translations.js"></script>
   <script src="app.js" defer></script>
