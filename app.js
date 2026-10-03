@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.querySelectorAll('a[href*="wa.me/"]').forEach(link => {
       const url = new URL(link.href);
-      url.searchParams.set('text', dictionary.whatsapp_message);
+      url.searchParams.set('text', dictionary[link.dataset.whatsappKey] || dictionary.whatsapp_message);
       link.href = url.toString();
     });
 

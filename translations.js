@@ -144,7 +144,18 @@ window.circoTranslations = {
     "announcement_title": "¡También estamos en El Corte Inglés!",
     "announcement_alt": "Anuncio de Circo Chuches: también estamos en El Corte Inglés, Málaga.",
     "announcement_close": "Cerrar anuncio",
-    "whatsapp_message": "¡Hola! Me gustaría saber más sobre las chucherías y los eventos."
+    "whatsapp_message": "¡Hola! Me gustaría saber más sobre las chucherías y los eventos.",
+    "own_products_title": "Nuestros productos propios",
+    "own_products_intro": "El sabor de Circo, con nuestra propia marca y una presentación llena de encanto.",
+    "own_products_cta": "Consultar disponibilidad",
+    "own_chips_title": "Patatas fritas Vintage",
+    "own_chips_text": "Patatas fritas en aceite de oliva, en una bolsa de 200 g con el inconfundible estilo de Circo.",
+    "own_chips_alt": "Bolsa de patatas fritas Vintage Circo en aceite de oliva",
+    "own_chips_message": "Hola, me gustaría consultar la disponibilidad de las patatas fritas Vintage de Circo.",
+    "own_almonds_title": "Almendras garrapiñadas Circo",
+    "own_almonds_text": "Nuestras almendras garrapiñadas, presentadas en botes de cristal con el sello de Circo. Un detalle para regalar o disfrutar.",
+    "own_almonds_alt": "Botes de almendras garrapiñadas de la marca Circo",
+    "own_almonds_message": "Hola, me gustaría consultar la disponibilidad de las almendras garrapiñadas Circo."
   },
   "en": {
     "google_reviews_update": "Manually updated selection. Checked on 3 October 2026.",
@@ -290,7 +301,18 @@ window.circoTranslations = {
     "announcement_title": "We’re also at El Corte Inglés!",
     "announcement_alt": "Circo Chuches announcement: we’re also at El Corte Inglés in Málaga.",
     "announcement_close": "Close announcement",
-    "whatsapp_message": "Hello! I’d like to know more about your sweets and events."
+    "whatsapp_message": "Hello! I’d like to know more about your sweets and events.",
+    "own_products_title": "Our own-brand products",
+    "own_products_intro": "The flavour of Circo, with our own branding and charming packaging.",
+    "own_products_cta": "Check availability",
+    "own_chips_title": "Vintage crisps",
+    "own_chips_text": "Crisps cooked in olive oil, in a 200 g bag with Circo’s unmistakable style.",
+    "own_chips_alt": "Bag of Circo Vintage crisps cooked in olive oil",
+    "own_chips_message": "Hello, I would like to check the availability of Circo Vintage crisps.",
+    "own_almonds_title": "Circo candied almonds",
+    "own_almonds_text": "Our candied almonds, presented in glass jars bearing the Circo label. A lovely gift or a treat for yourself.",
+    "own_almonds_alt": "Glass jars of Circo candied almonds",
+    "own_almonds_message": "Hello, I would like to check the availability of Circo candied almonds."
   },
   "fr": {
     "google_reviews_update": "Sélection mise à jour manuellement. Consultée le 3 octobre 2026.",
@@ -436,6 +458,17 @@ window.circoTranslations = {
     "announcement_title": "Retrouvez-nous aussi chez El Corte Inglés !",
     "announcement_alt": "Annonce de Circo Chuches : retrouvez-nous aussi chez El Corte Inglés à Málaga.",
     "announcement_close": "Fermer l’annonce",
-    "whatsapp_message": "Bonjour ! Je souhaiterais en savoir plus sur vos bonbons et vos événements."
+    "whatsapp_message": "Bonjour ! Je souhaiterais en savoir plus sur vos bonbons et vos événements.",
+    "own_products_title": "Nos produits de marque Circo",
+    "own_products_intro": "Les saveurs de Circo, sous notre propre marque et dans des emballages pleins de charme.",
+    "own_products_cta": "Vérifier la disponibilité",
+    "own_chips_title": "Chips Vintage",
+    "own_chips_text": "Des chips à l’huile d’olive, dans un sachet de 200 g au style inimitable de Circo.",
+    "own_chips_alt": "Sachet de chips Vintage Circo à l’huile d’olive",
+    "own_chips_message": "Bonjour, je souhaiterais connaître la disponibilité des chips Vintage de Circo.",
+    "own_almonds_title": "Amandes caramélisées Circo",
+    "own_almonds_text": "Nos amandes caramélisées, présentées dans des bocaux en verre à l’effigie de Circo. Une douceur à offrir ou à savourer.",
+    "own_almonds_alt": "Bocaux d’amandes caramélisées de la marque Circo",
+    "own_almonds_message": "Bonjour, je souhaiterais connaître la disponibilité des amandes caramélisées Circo."
   }
 };

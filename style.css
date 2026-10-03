@@ -1944,3 +1944,17 @@ section {
 .announcement-title { font-family: var(--font-body); font-size: 1.1rem; padding: 4px 44px 12px 4px; }
 .announcement-close { position: absolute; right: 10px; top: 8px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--border-color); background: var(--bg-primary); color: var(--text-primary); font-size: 28px; cursor: pointer; }
 .announcement-close:focus-visible { outline: 3px solid var(--color-crimson); outline-offset: 2px; }
+
+/* Own-brand products: display each half of the supplied two-product photograph. */
+.own-products { margin-top: var(--space-xl); }
+.own-products-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.own-product-card { overflow: hidden; border: 1px solid var(--gold-primary, #c9a55c); border-radius: 16px; }
+.own-product-photo { aspect-ratio: 628 / 810; background: #fff; overflow: hidden; }
+.own-product-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.own-product-photo.chips img { object-position: top; }
+.own-product-photo.almonds img, .gallery-own-almonds { object-position: bottom; }
+.own-product-content { padding: 1.5rem; }
+.own-product-content .showcase-title { font-size: 1.5rem; }
+@media (max-width: 640px) { .own-products-grid { grid-template-columns: 1fr; } }
+.own-products { scroll-margin-top: 110px; }
+.own-product-photo.chips img { clip-path: inset(4px 0 0); }
