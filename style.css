@@ -1928,5 +1928,11 @@ section {
 .logo-img { object-fit: contain; border-radius: 0; }
 .google-reviews-panel { max-width: 900px; margin: 0 auto; text-align: center; }
 .google-reviews-panel p { color: var(--text-secondary); margin-bottom: var(--space-md); }
-.google-reviews-widget:empty { display: none; }
-.google-reviews-widget { margin-bottom: var(--space-md); }
+
+.manual-reviews-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin: 32px 0; text-align: left; }
+.manual-review { display: flex; flex-direction: column; gap: 14px; }
+.manual-review blockquote { font-size: 1.15rem; line-height: 1.6; flex: 1; }
+.google-reviews-panel .review-source { font-size: .85rem; margin: 0; }
+.manual-review a { color: var(--text-primary); text-decoration: underline; text-underline-offset: 4px; }
+.reviews-update { font-size: .85rem; }
+@media (max-width: 767px) { .manual-reviews-grid { grid-template-columns: 1fr; } }
