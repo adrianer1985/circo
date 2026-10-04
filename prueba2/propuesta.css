@@ -1,0 +1,56 @@
+/* Proposal 2: bold circus poster, red stage and white editorial sections. */
+:root { --bg-primary:#fff; --bg-secondary:#fff; --bg-tertiary:#ffeae7; --color-crimson:#c41f30; --color-crimson-hover:#a21124; --color-gold:#9c1830; --color-gold-hover:#7b1024; --text-primary:#32181b; --text-secondary:#725356; --border-color:#e9c7c9; --header-bg:#fff; --font-display:Georgia,serif; }
+body { background:#c41f30; }
+.main-header { background:#fff; border-bottom:0; box-shadow:none; }
+.logo-text { font-style:italic; }
+.nav-list a { font-weight:600; }
+.btn { border-radius:6px; box-shadow:none; }
+.hero-section { background:#c41f30; padding:140px 0 76px; overflow:hidden; }
+.hero-backdrop { opacity:1; background:repeating-linear-gradient(110deg,transparent 0 150px,#ffffff0c 150px 300px); }
+.hero-grid { grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
+.hero-content { background:transparent; padding:0; }
+.hero-title { font-size:clamp(2.8rem,5.2vw,5rem); color:#fff; font-weight:800; line-height:1.03; letter-spacing:-2px; }
+.hero-description { color:#fff; font-size:1.08rem; max-width:540px; }
+.hero-content .badge { background:transparent; color:#fff; border:1px solid #ffffff80; border-radius:0; letter-spacing:1px; }
+.hero-content .btn-primary { background:#fff; color:#a21124; border-color:#fff; }
+.hero-content .btn-secondary { background:transparent; color:#fff; border-color:#fff; }
+.hero-image-wrapper { transform:rotate(3deg); border:12px solid #fff; border-radius:0; background:#fff; box-shadow:16px 16px 0 #801225; }
+.hero-image-frame { border:0; padding:0; border-radius:0; background:transparent; box-shadow:none; }
+.hero-image { display:block; object-fit:cover; width:100%; height:480px; border-radius:0; }
+.lang-switcher-hero { top:22px; right:32px; }
+.lang-switcher { background:#fff; border-radius:6px; }
+.hero-section::after { content:''; position:absolute; bottom:0; left:0; width:100%; height:22px; background:repeating-linear-gradient(90deg,#fff 0 90px,#c41f30 90px 180px); }
+main > section:not(.hero-section) { border:0; background:#fff; padding:72px 0; }
+.section-header { background:transparent; max-width:800px; }
+.section-title { color:#a21124; font-size:clamp(2rem,3.4vw,3rem); }
+.section-title::after { width:70px; height:4px; background:#c41f30; }
+.section-subtitle { color:#a21124; letter-spacing:3px; }
+.candy-card { border-radius:0; background:#fff; box-shadow:none; border:1px solid #e9c7c9; border-top:5px solid #c41f30; }
+.candy-card::before { display:none; }
+.candy-badge { border-radius:4px; }
+.own-products { background:#c41f30; padding:32px; margin-top:72px; }
+.own-products > .showcase-title, .own-products > .showcase-text { color:#fff; }
+.own-products-grid { gap:28px; }
+.own-product-card { border:0; border-radius:0; background:#fff; }
+.own-product-photo { aspect-ratio:628/680; }
+.own-product-content { padding:24px; }
+.featured-candy-showcase { border-radius:0; border:0; border-top:4px solid #c41f30; box-shadow:none; background:#fff1ef; }
+main > .eventos-section { background:#c41f30; }
+.eventos-section .section-title, .eventos-section .section-description, .eventos-section .section-subtitle { color:#fff; }
+.eventos-section .section-title::after { background:#fff; }
+.event-card { background:#fff; border-radius:0; border:0; box-shadow:8px 8px 0 #941124; }
+.gallery-item { border-radius:0; box-shadow:none; border:0; }
+.gallery-grid { gap:16px; }
+.about-image-card { border-radius:0; transform:rotate(-2deg); border:10px solid #fff; box-shadow:10px 10px 0 #c41f30; }
+.about-content { padding-left:20px; }
+.prensa-card { border-radius:0; box-shadow:none; border:1px solid #e9c7c9; }
+.prensa-card-header { background:#fff1ef; }
+main > .comunidad-section { background:#fff1ef; }
+.testimonial-card { background:#fff; border-radius:0; box-shadow:none; border-left:4px solid #c41f30; }
+.contact-info-panel { background:#fff; }
+.map-card-wrapper { border-radius:0; border:4px solid #c41f30; }
+.main-footer { background:#941124; --text-primary:#fff; --text-secondary:#ffe6e8; --color-gold:#fff; }
+.theme-selector-container { display:none; }
+.circus-music { border-color:#c41f30; background:#fff; color:#a21124; }
+@media(max-width:800px) { .hero-grid { grid-template-columns:1fr; gap:40px; } .hero-image-wrapper { max-width:480px; margin:0 auto; transform:rotate(2deg); } .hero-title { font-size:clamp(2.6rem,8vw,4rem); } .hero-image { height:380px; } .hero-section { padding-bottom:64px; } }
+@media(max-width:480px) { .hero-title { letter-spacing:-1px; } .hero-image { height:310px; } .hero-image-wrapper { border-width:8px; box-shadow:8px 8px 0 #801225; } .own-products { padding:20px; } .own-products-grid { grid-template-columns:1fr; } .about-content { padding-left:0; } }
