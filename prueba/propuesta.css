@@ -1,0 +1,22 @@
+
+:root { --bg-primary: #fff; --bg-secondary: #fff; --bg-tertiary: #fff5f2; --color-crimson: #b41525; --text-primary: #34201e; --text-secondary: #68534d; --border-color: #e9d6cb; --header-bg: #ffffffed; }
+body { background: #fff; }
+.hero-section { background: repeating-linear-gradient(90deg, #b41525 0 76px, #fff 76px 152px); padding: 150px 0 65px; }
+.hero-backdrop { display: none; }
+.hero-grid { background: #fff; padding: 38px; border: 2px solid #cfa13c; border-radius: 22px; box-shadow: 0 15px 40px #48000e35; gap: 32px; }
+.hero-title { font-size: clamp(2.3rem, 4vw, 3.8rem); }
+.hero-image { object-fit: cover; width: 100%; height: 440px; }
+.hero-image-wrapper { border-radius: 14px; }
+.lang-switcher-hero { position: relative; top: auto; right: auto; justify-content: flex-end; margin-bottom: 18px; }
+.lang-switcher { background: #fff; border-radius: 32px; padding: 5px; }
+.eventos-section, .comunidad-section { background: repeating-linear-gradient(90deg, #b41525 0 76px, #fff 76px 152px); }
+.eventos-section > .container, .comunidad-section > .container { background: #fff; padding: 42px; border-radius: 22px; border: 2px solid #cfa13c; }
+.own-products { background: #fff; border-top: 10px solid transparent; border-image: repeating-linear-gradient(90deg,#b41525 0 32px,#fff 32px 64px) 10; }
+.main-header { border-bottom: 3px solid #b41525; }
+.theme-selector-container { display: none; }
+@media(max-width: 640px) {
+ .hero-section, .eventos-section, .comunidad-section { background-size: 80px 100%; background-image: repeating-linear-gradient(90deg,#b41525 0 40px,#fff 40px 80px); }
+ .hero-grid { padding: 22px; gap: 24px; }
+ .hero-image { height: 310px; }
+ .eventos-section > .container, .comunidad-section > .container { width: calc(100% - 30px); padding: 24px 18px; }
+}
