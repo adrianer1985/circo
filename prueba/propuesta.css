@@ -1,5 +1,5 @@
 :root { --bg-primary:#fff7ee; --bg-secondary:#fff7ee; --bg-tertiary:#f8e8d9; --color-crimson:#a41425; --text-primary:#34201e; --text-secondary:#68534d; --border-color:#dac2ab; --header-bg:#fff7eef5; }
-body { background:repeating-linear-gradient(90deg,#a41425 0 72px,#fff7ee 72px 120px); }
+body { background:repeating-linear-gradient(90deg,#a41425 0 144px,#fff7ee 144px 240px); }
 main > section, .hero-section { background:transparent; border-bottom:0; }
 .hero-section { padding:140px 0 65px; }
 .hero-backdrop { display:none; }
@@ -30,7 +30,7 @@ main > section, .hero-section { background:transparent; border-bottom:0; }
 .main-footer { background:#821321; --text-primary:#fff7ee; --text-secondary:#fae7d7; }
 .theme-selector-container { display:none; }
 @media(max-width:640px) {
- body { background:repeating-linear-gradient(90deg,#a41425 0 42px,#fff7ee 42px 70px); }
+ body { background:repeating-linear-gradient(90deg,#a41425 0 84px,#fff7ee 84px 140px); }
  .hero-content { padding:24px; }
  .hero-grid { gap:24px; }
  .hero-image { height:330px; }
