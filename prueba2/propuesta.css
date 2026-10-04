@@ -62,3 +62,5 @@ main > .hero-section { padding:130px 0 55px; }
 @media(max-width:1000px) { .own-product-card { grid-template-columns:1fr; } .own-product-photo { height:400px; } }
 @media(max-width:640px) { body { background:repeating-linear-gradient(90deg,#aa1e30 0 84px,#fff9f1 84px 144px); } .hero-content { padding:24px 20px; } .hero-title { letter-spacing:-1px; } .hero-image { height:290px; } .section-header { padding:22px 20px; } .own-products-grid { grid-template-columns:1fr; } .own-product-photo { height:380px; } main > section { padding:36px 0; } }
 main > section { background:transparent !important; }
+
+.gallery-item .gallery-lighting-photo { object-position:center top; }
