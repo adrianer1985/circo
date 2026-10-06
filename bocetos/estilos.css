@@ -84,3 +84,25 @@ html{scroll-behavior:smooth;scroll-padding-top:120px}body{--red:#af1729;--cream:
 .own-product-photo{position:relative;overflow:hidden}.own-product-photo img{position:absolute;left:0;width:100%;height:200%;object-fit:fill!important}.own-product-photo.chips img{top:0}.own-product-photo.almonds img{bottom:0}
 
 .concept-3 .hero-content{z-index:5}.concept-1 .hero-brand{mix-blend-mode:normal}.concept-1 .hero-content{margin-right:0;min-width:0}.concept-1 .hero-image-wrapper{z-index:0}.concept-1 .hero-description{overflow-wrap:anywhere}.hero-image{object-position:center top}
+
+/* Carpa: the complete canopy, balloons and uncropped shop stay in view. */
+.concept-2 .hero-section{padding:0 0 45px!important;overflow:hidden;position:relative}
+.concept-2 .hero-section::before{display:none}
+.concept-2 .tent-valance{display:flex;height:145px;position:relative;z-index:1;margin-bottom:-55px;filter:drop-shadow(0 6px 8px #56111b44)}
+.concept-2 .tent-valance span{flex:1;border-radius:0 0 50% 50% / 0 0 25% 25%;background:linear-gradient(100deg,#981322,#d63845 45%,#941426);border-bottom:6px solid #d0a35e;position:relative}
+.concept-2 .tent-valance span:nth-child(even){background:linear-gradient(100deg,#eee1c4,#fff9ef 45%,#e9d7b6)}
+.concept-2 .tent-valance span::after{content:'• • •';position:absolute;bottom:-8px;width:100%;text-align:center;color:#ffeab0;text-shadow:0 0 8px #efb34d;font-size:18px;white-space:nowrap}
+.concept-2 .hero-grid{max-width:970px;gap:0;position:relative;z-index:2}
+.concept-2 .hero-content{max-width:780px;padding:0;margin:0 auto -22px;z-index:3;animation:none;transform:none}
+.concept-2 .hero-brand{display:block;mix-blend-mode:normal;background:#fff9ed;border-radius:50%;border:3px solid #d3aa63;padding:8px;width:175px;height:150px;margin:0 auto 12px;box-shadow:0 6px 12px #61122033}
+.concept-2 .hero-title{font-size:clamp(2rem,3.4vw,3.1rem);line-height:1.1;border-radius:50% 50% 8px 8px / 22px 22px 8px 8px;padding:20px 32px;margin:0;box-shadow:0 8px 12px #5c102944}
+.concept-2 .hero-image-wrapper{width:100%;max-width:930px;border:10px solid #8f1324;outline:3px solid #d5ab63;border-radius:90px 90px 0 0;box-shadow:0 8px 26px #5c102955;overflow:hidden;background:#8f1324;padding:22px 0 0;position:relative;z-index:1}
+.concept-2 .hero-image-wrapper .circus-marquee-frame{display:block;width:100%;padding:0;transform:none;animation:none}
+.concept-2 .hero-image{display:block;width:100%;height:auto!important;max-height:570px;object-fit:contain!important;object-position:center center;border-radius:0}
+.concept-2 .tent-balloon{position:absolute;z-index:4;width:135px;top:165px;pointer-events:none;filter:drop-shadow(0 6px 9px #57102133)}
+.concept-2 .tent-balloon svg{display:block;width:100%;height:auto}
+.concept-2 .tent-balloon-left{left:calc(50% - 620px);transform:rotate(-7deg)}
+.concept-2 .tent-balloon-right{right:calc(50% - 620px);transform:rotate(7deg)}
+.concept-2 .hero-section>.container{max-width:1180px;position:static}
+@media(max-width:1100px){.concept-2 .tent-balloon-left{left:15px}.concept-2 .tent-balloon-right{right:15px}.concept-2 .tent-balloon{width:95px;top:150px}.concept-2 .hero-grid{max-width:790px}.concept-2 .hero-content{max-width:620px}}
+@media(max-width:700px){.concept-2 .tent-valance{height:100px;margin-bottom:-28px}.concept-2 .hero-section>.container{width:calc(100% - 20px);padding:0}.concept-2 .hero-grid{width:100%;gap:0}.concept-2 .hero-brand{width:108px;height:94px;margin-bottom:10px;padding:5px}.concept-2 .hero-content{width:100%;padding:0 15px;margin-bottom:-12px}.concept-2 .hero-title{font-size:1.75rem;padding:15px 18px;border-radius:35px 35px 5px 5px;max-width:100%;transform:none}.concept-2 .hero-image-wrapper{border-width:6px;border-radius:48px 48px 0 0;padding-top:20px;outline-width:2px}.concept-2 .hero-image{max-height:none;aspect-ratio:933 / 826;object-fit:contain!important}.concept-2 .tent-balloon{width:65px;top:95px}.concept-2 .tent-balloon-left{left:8px}.concept-2 .tent-balloon-right{right:8px}.concept-2 .tent-valance span::after{font-size:12px;content:'• •'}.concept-2 .hero-section{padding-bottom:30px!important}.concept-2 .own-product-photo{height:270px!important}}
