@@ -12,9 +12,9 @@
  document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause();});
  window.addEventListener('pagehide',()=>audio.pause());
  const root=document.documentElement,theme=document.getElementById('ambienceToggle'),label=document.getElementById('ambienceLabel');
- const system=window.matchMedia('(prefers-color-scheme: dark)');let mode='auto';
- function setMode(){root.dataset.circoMode=mode;root.dataset.circoNight=String(mode==='night'||(mode==='auto'&&system.matches));label.textContent={auto:'Auto',night:'Noche',day:'Día'}[mode];const text={auto:'Ambiente automático. Cambiar a noche',night:'Ambiente de noche. Cambiar a día',day:'Ambiente de día. Usar ajuste del dispositivo'}[mode];theme.setAttribute('aria-label',text);theme.title=text;}
- theme.addEventListener('click',()=>{mode={auto:'night',night:'day',day:'auto'}[mode];setMode();});
+ const system=window.matchMedia('(prefers-color-scheme: dark)');let mode='day';
+ function setMode(){root.dataset.circoMode=mode;root.dataset.circoNight=String(mode==='night'||(mode==='auto'&&system.matches));label.textContent={auto:'Auto',night:'Noche',day:'Día'}[mode];const text={auto:'Ambiente automático del dispositivo. Cambiar a día',night:'Ambiente de noche. Usar ajuste del dispositivo',day:'Ambiente de día. Cambiar a noche'}[mode];theme.setAttribute('aria-label',text);theme.title=text;}
+ theme.addEventListener('click',()=>{mode={day:'night',night:'auto',auto:'day'}[mode];setMode();});
  system.addEventListener('change',setMode);setMode();
 })();
 (() => {const control=document.querySelector('.music-control'),button=document.getElementById('musicCreditToggle'),card=document.getElementById('musicCredit');let pinned=false;function show(){card.hidden=false;button.setAttribute('aria-expanded','true');}function hide(){if(pinned||control.matches(':hover')||control.contains(document.activeElement))return;card.hidden=true;button.setAttribute('aria-expanded','false');}control.addEventListener('mouseenter',show);control.addEventListener('mouseleave',hide);control.addEventListener('focusin',show);control.addEventListener('focusout',()=>setTimeout(hide,0));button.addEventListener('click',()=>{pinned=!pinned;if(pinned)show();else{card.hidden=true;button.setAttribute('aria-expanded','false');}});document.addEventListener('click',e=>{if(!control.contains(e.target)){pinned=false;card.hidden=true;button.setAttribute('aria-expanded','false');}});document.addEventListener('keydown',e=>{if(e.key==='Escape'){pinned=false;card.hidden=true;button.setAttribute('aria-expanded','false');}});})();
