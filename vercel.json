@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/boceto5",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/boceto5/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

@@ -18,7 +18,7 @@
 ## Estructura
 - Sitio estático: index.html, style.css, app.js, translations.js, theme.js y music.js.
 - Recursos: assets/.
-- También existen boceto1 a boceto5, bocetos/, prueba/, prueba2/, firma-alberto2/. Conservarlos salvo petición expresa.
+- Diseño principal: boceto 5 elegido por el usuario. Recursos activos en assets/css/, assets/js/ y assets/images/. Los bocetos y pruebas anteriores se retiraron; /boceto5 redirige a /. Conservar firma-alberto2/.
 - Idiomas: español, inglés y francés. Revisar traducciones, etiquetas accesibles y enlaces al modificar contenido.
 
 ## Decisiones ya solicitadas
@@ -36,3 +36,8 @@
 ## Verificación de continuidad del 6 de octubre de 2026
 Antes de añadir este documento, la rama principal estaba en d2e0b5df42845d0c55016830560cdb6412498e2f, guardado a las 10:39:44 (Europe/Madrid), con el ajuste del nombre de la firma en una sola línea.
 La respuesta HTML de la portada en Vercel coincidía exactamente con index.html de ese estado. Esta comprobación no certifica todas las rutas ni los recursos y debe repetirse cuando proceda.
+
+## Diseño elegido
+- La portada reproduce la carpa del boceto 5 con enlaces reales sobre la ilustración y navegación accesible debajo.
+- Conservar los idiomas, el anuncio de cuatro segundos, reseñas manuales, productos propios, mapa, música apagada al entrar y ambiente día/noche.
+- El correo de contacto vigente es info@circochucherias.com.
