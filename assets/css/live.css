@@ -31,6 +31,6 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 @media(max-width:700px){.live-toolbar .toolbar-brand{font-size:12px}.live-toolbar .lang-code{display:none}.concept-5 .live-toolbar{gap:6px;padding:7px 10px}.live-toolbar .lang-btn{padding:4px}.concept-5 .grid-2{grid-template-columns:1fr}.concept-5 .own-product-photo{max-width:calc(100% - 24px)}.concept-5 .live-actions .btn{font-size:12px;padding:10px 12px}.concept-5 .original-jump{gap:8px}.art-link{border-width:1px}.concept-5 .carpa-art{width:100%}}
 @media(prefers-reduced-motion:reduce){.carpa-art>img{transition:none}}
 
-.evento-circo-logo{display:block;width:180px;max-width:65%;height:auto;max-height:180px;object-fit:contain;filter:drop-shadow(0 10px 12px #6b291936);transition:transform .35s ease}
+.evento-circo-logo{display:block;width:180px;max-width:65%;height:auto;max-height:125px;object-fit:contain;mix-blend-mode:multiply;filter:drop-shadow(0 10px 12px #6b291936);transition:transform .35s ease}
 .evento-card:hover .evento-circo-logo{transform:scale(1.06)}
 @media(prefers-reduced-motion:reduce){.evento-circo-logo{transition:none}}
