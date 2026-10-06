@@ -6,14 +6,15 @@
 .live-toolbar .lang-btn{display:flex;align-items:center;gap:4px;padding:5px 7px;border:1px solid transparent;border-radius:5px;color:#fff5de;letter-spacing:0}
 .live-toolbar .lang-btn.active{background:#fff2d9;color:#841827}
 .live-toolbar .lang-code{font-size:11px}
+.concept-5 .original-carpa{padding-top:0!important}
 .carpa-art{width:var(--art-width);max-width:100%;position:relative;overflow:hidden}
-.carpa-art>img{display:block;width:100%;height:auto;margin-top:-4.05%;transition:filter .7s ease}
+.carpa-art>img{display:block;width:100%;height:auto;margin-top:-5.9%;transition:filter .7s ease}
 .art-link{position:absolute;display:block;border:2px solid transparent;border-radius:12px;z-index:2;cursor:pointer}
 .art-link:hover,.art-link:focus-visible{border-color:#ffe7a3;outline:3px solid #af1729;outline-offset:2px;background:#fff3da18}
-.art-shop{left:11%;top:11.6%;width:10%;height:5%}
-.art-products{left:24%;top:11.6%;width:12%;height:5%}
-.art-events{left:67%;top:11.6%;width:10%;height:5%}
-.art-contact{left:78%;top:11.6%;width:12%;height:5%}
+.art-shop{left:11%;top:10.5%;width:10%;height:5%}
+.art-products{left:24%;top:10.5%;width:12%;height:5%}
+.art-events{left:67%;top:10.5%;width:10%;height:5%}
+.art-contact{left:78%;top:10.5%;width:12%;height:5%}
 .art-sweets{left:2%;top:65%;width:31%;height:27%;border-radius:50%}
 .art-visit{left:35%;top:65%;width:30%;height:27%;border-radius:50%}
 .art-party{left:68%;top:65%;width:30%;height:27%;border-radius:50%}
