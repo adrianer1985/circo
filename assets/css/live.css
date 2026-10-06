@@ -34,3 +34,8 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 .evento-circo-logo{display:block;width:180px;max-width:65%;height:auto;max-height:125px;object-fit:contain;mix-blend-mode:multiply;transition:transform .35s ease}
 .evento-card:hover .evento-circo-logo{transform:scale(1.06)}
 @media(prefers-reduced-motion:reduce){.evento-circo-logo{transition:none}}
+
+.circo-treat-visuals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:0 auto 40px;max-width:950px}
+.circo-treat-visuals figure{margin:0;overflow:hidden;border:2px solid #cfa74e;border-radius:24px;background:#fff3da;box-shadow:0 12px 28px #54121a25}
+.circo-treat-visuals img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+@media(max-width:600px){.circo-treat-visuals{grid-template-columns:1fr;gap:20px;max-width:420px}}
