@@ -1,14 +1,15 @@
 (() => {
  const toggle=document.getElementById('waltzToggle');
  const status=document.getElementById('musicStatus');
- const audio=document.getElementById('circoWaltz');audio.volume=.3;
+ const audio=document.getElementById('circoWaltz');audio.volume=.3;audio.loop=false;const startAt=45;let firstStart=true;
  audio.src='https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Sobre_las_olas.ogg/Sobre_las_olas.ogg.mp3';
  let pending=false;
  const reflect=playing=>{toggle.setAttribute('aria-pressed',String(playing));toggle.setAttribute('aria-label',playing?'Desactivar música: Sobre las olas':'Activar música: Sobre las olas');toggle.title=toggle.getAttribute('aria-label');};
  audio.addEventListener('playing',()=>{reflect(true);status.textContent='';});
  audio.addEventListener('pause',()=>reflect(false));
+ audio.addEventListener('ended',()=>{audio.currentTime=startAt;audio.play().catch(()=>reflect(false));});
  audio.addEventListener('error',()=>{reflect(false);status.textContent='No se ha podido cargar la música. Pulsa el botón para volver a intentarlo.';});
- toggle.addEventListener('click',async()=>{if(pending)return;if(!audio.paused){audio.pause();return;}pending=true;toggle.disabled=true;try{await audio.play();}catch(e){reflect(false);status.textContent='No se ha podido reproducir la música. Vuelve a pulsar el botón.';}finally{pending=false;toggle.disabled=false;}});
+ toggle.addEventListener('click',async()=>{if(pending)return;if(!audio.paused){audio.pause();return;}pending=true;toggle.disabled=true;try{if(firstStart){audio.currentTime=startAt;firstStart=false;}await audio.play();}catch(e){reflect(false);status.textContent='No se ha podido reproducir la música. Vuelve a pulsar el botón.';}finally{pending=false;toggle.disabled=false;}});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)audio.pause();});
  window.addEventListener('pagehide',()=>audio.pause());
  const root=document.documentElement,theme=document.getElementById('ambienceToggle'),label=document.getElementById('ambienceLabel');
