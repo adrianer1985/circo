@@ -41,5 +41,3 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 @media(max-width:600px){.circo-treat-visuals{grid-template-columns:1fr;gap:20px;max-width:420px}}
 
 .concept-5 .candy-history-note{max-width:950px;margin:28px auto 40px;padding:22px 28px;text-align:center;line-height:1.7;font-size:1.1rem;color:#fff3da;background:#8c1625;border:1px solid #cfa74e;border-radius:16px}.candy-history-note strong{color:#f5d37f;white-space:nowrap}
-
-.hero-event-photo{position:absolute;left:68.5%;top:67.95%;width:28.4%;aspect-ratio:1;border-radius:50%;overflow:hidden;pointer-events:none;z-index:1}.hero-event-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 58%}.hero-event-plaque{position:absolute;inset:0;background:url('/assets/images/carpa-original.jpg') center bottom/100% auto no-repeat;clip-path:polygon(67% 86%,99% 86%,99% 92.5%,67% 92.5%);z-index:1;pointer-events:none}html[data-circo-night=true] .hero-event-photo,html[data-circo-night=true] .hero-event-plaque{filter:brightness(.57) saturate(.75) contrast(.94)}
