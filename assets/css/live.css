@@ -39,3 +39,5 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 .circo-treat-visuals figure{margin:0;overflow:hidden;border:2px solid #cfa74e;border-radius:24px;background:#fff3da;box-shadow:0 12px 28px #54121a25}
 .circo-treat-visuals img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
 @media(max-width:600px){.circo-treat-visuals{grid-template-columns:1fr;gap:20px;max-width:420px}}
+
+.concept-5 .candy-history-note{max-width:950px;margin:28px auto 40px;padding:22px 28px;text-align:center;line-height:1.7;font-size:1.1rem;color:#fff3da;background:#8c1625;border:1px solid #cfa74e;border-radius:16px}.candy-history-note strong{color:#f5d37f;white-space:nowrap}
