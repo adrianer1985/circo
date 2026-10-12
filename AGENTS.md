@@ -52,7 +52,7 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - Pendiente confirmación operativa del proveedor de correo y condiciones contratadas de alojamiento; no presentar los textos como certificación global de cumplimiento.
 
 ## Crédito de creación
-- En el pie de la web, escribir Alberto OrtegA, con A final mayúscula, en ES, EN y FR. Conservar la escritura legal del titular en los textos fiscales.
+- En el pie de la web, escribir AlbertOrtegA, unido y con A final mayúscula, en ES, EN y FR. Conservar la escritura legal del titular en los textos fiscales.
 
 ## Retrato de la firma
 - Retrato aprobado: Alberto con traje de domador rojo y dorado, en assets/images/alberto-domador-firma.jpg. Conservar el logo de CIRCO junto al retrato.
