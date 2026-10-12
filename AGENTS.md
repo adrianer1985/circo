@@ -41,3 +41,12 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - La portada reproduce la carpa del boceto 5 con enlaces reales sobre la ilustración y navegación accesible debajo.
 - Conservar los idiomas, el anuncio de cuatro segundos, reseñas manuales, productos propios, mapa, música apagada al entrar y ambiente día/noche.
 - El correo de contacto vigente es info@circochucherias.com.
+
+## Información legal y contacto (12 de octubre de 2026)
+- Titular confirmado: Alberto Ortega Plazuelo, autónomo y propietario de la marca y tienda.
+- Correo único: info@circochucherias.com. No reintroducir direcciones hola@.
+- Sitio informativo sin pedidos ni pago en línea.
+- Páginas legales en /aviso-legal/, /privacidad/ y /cookies/, actualmente en español con enlaces indicados como tal en EN/FR.
+- Mantener inventario real de localStorage: circo-lang y circo-ambience. No añadir analítica ni tecnologías no exentas sin adaptar la información y el consentimiento.
+- El mapa abre un servicio externo por decisión del usuario; no reintroducir iframe automático sin revisar privacidad.
+- Pendiente confirmación operativa del proveedor de correo y condiciones contratadas de alojamiento; no presentar los textos como certificación global de cumplimiento.
