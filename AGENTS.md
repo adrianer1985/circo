@@ -5,7 +5,8 @@
 - Rama principal: main.
 - Web de referencia: https://circo-theta.vercel.app/
 - Dominio previsto: www.circochucherias.com. Comprobar su estado antes de afirmar que está conectado.
-- Alojamiento existente: Vercel. Conservarlo salvo petición expresa.
+- Alojamiento anterior: Vercel. El 12/10/2026 el usuario solicitó usar GitHub Pages.
+- GitHub Pages preparado en main con CNAME y .nojekyll; no confundir archivos guardados con Pages activado o dominio conectado. Consultar DEPLOYMENT.md para los pasos pendientes.
 
 ## Al retomar desde cualquier dispositivo o chat
 1. Consultar la rama principal y los cambios recientes en GitHub antes de editar. Una conversación compartida sirve de contexto, pero no determina la versión actual.
