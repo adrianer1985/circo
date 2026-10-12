@@ -6,7 +6,13 @@ Decisión del usuario (12/10/2026): publicar desde GitHub Pages y mantener los d
 - Código estático en la rama main; no necesita compilación.
 - CNAME declara www.circochucherias.com.
 - .nojekyll permite publicar los archivos estáticos sin Jekyll.
-- Activación de Pages, configuración del dominio en Settings y DNS de Arsys pendientes de verificación. Estos archivos no activan por sí solos el servicio.
+- Pages activado desde main, /(root), con dominio www.circochucherias.com y Enforce HTTPS activado (verificado en Settings el 12/10/2026).
+- https://www.circochucherias.com/ abre correctamente. Comprobados ES/EN/FR, 16 imágenes sin errores de carga y /aviso-legal/.
+- Arsys: guardados los cuatro registros A y el CNAME indicados abajo, sustituyendo la IP de aparcamiento y el A de www. Conservados los registros de correo.
+- Pendiente revalidar propagación: el acceso sin www todavía mostraba la página anterior de Arsys y GitHub seguía mostrando el aviso DNS anterior al terminar la comprobación.
+- .es: redirección permanente 301 guardada en Arsys; comprobados http://circochucherias.es/ y http://www.circochucherias.es/ hacia HTTPS del .com.
+- HTTPS de origen .es no disponible: ERR_SSL_PROTOCOL_ERROR en https://circochucherias.es/. El panel exige contratar Redirección segura para ese acceso; no se ha contratado ningún servicio adicional.
+- Correo Básico contratado en Arsys; el panel mostraba 0 buzones utilizados. Crear info@circochucherias.com y probar envío/recepción sigue pendiente; DNS preservado no equivale a buzón operativo.
 - Conservar Vercel durante la transición hasta verificar el dominio en GitHub Pages.
 
 ## GitHub
