@@ -9,10 +9,10 @@ Decisión del usuario (12/10/2026): publicar desde GitHub Pages y mantener los d
 - Pages activado desde main, /(root), con dominio www.circochucherias.com y Enforce HTTPS activado (verificado en Settings el 12/10/2026).
 - https://www.circochucherias.com/ abre correctamente. Comprobados ES/EN/FR, 16 imágenes sin errores de carga y /aviso-legal/.
 - Arsys: guardados los cuatro registros A y el CNAME indicados abajo, sustituyendo la IP de aparcamiento y el A de www. Conservados los registros de correo.
-- Pendiente revalidar propagación: el acceso sin www todavía mostraba la página anterior de Arsys y GitHub seguía mostrando el aviso DNS anterior al terminar la comprobación.
+- Comprobado también http://circochucherias.com/: redirige a https://www.circochucherias.com/. GitHub todavía muestra un aviso DNS de www anterior al cambio a CNAME; pendiente de revalidación del proveedor.
 - .es: redirección permanente 301 guardada en Arsys; comprobados http://circochucherias.es/ y http://www.circochucherias.es/ hacia HTTPS del .com.
-- HTTPS de origen .es no disponible: ERR_SSL_PROTOCOL_ERROR en https://circochucherias.es/. El panel exige contratar Redirección segura para ese acceso; no se ha contratado ningún servicio adicional.
-- Correo Básico contratado en Arsys; el panel mostraba 0 buzones utilizados. Crear info@circochucherias.com y probar envío/recepción sigue pendiente; DNS preservado no equivale a buzón operativo.
+- HTTPS de origen .es no disponible: ERR_SSL_PROTOCOL_ERROR en https://circochucherias.es/. El usuario decidió mantener únicamente la redirección HTTP y rechazó contratar Redirección segura. Eliminado el complemento del carrito; no se ha contratado ningún servicio adicional.
+- Buzón info@circochucherias.com creado por el usuario y confirmado mediante el mensaje de éxito de Arsys. Webmail: https://correo.arsys.es/. IMAP: imap.serviciodecorreo.es, SSL/TLS, puerto 993. SMTP: smtp.serviciodecorreo.es, SSL/TLS, puerto 465. Usuario: dirección completa. Pendiente de acceso del usuario al webmail y prueba de envío/recepción al propio buzón, autorizada por el usuario; todavía no enviada. No se almacena la contraseña.
 - Conservar Vercel durante la transición hasta verificar el dominio en GitHub Pages.
 
 ## GitHub
