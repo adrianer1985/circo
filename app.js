@@ -169,4 +169,32 @@ document.addEventListener('DOMContentLoaded', () => {
     else announcementImage.addEventListener('load', showAnnouncement, { once: true });
   }
 
+  // Circular gallery: reveal captions by tap or keyboard as well as hover.
+  const galleryItems = [...document.querySelectorAll('.gallery-item[role="button"]')];
+  const setGalleryOpen = (item, open) => {
+    item.classList.toggle('is-open', open);
+    item.setAttribute('aria-expanded', String(open));
+  };
+  galleryItems.forEach(item => {
+    const toggle = () => {
+      const open = !item.classList.contains('is-open');
+      galleryItems.forEach(other => setGalleryOpen(other, other === item && open));
+    };
+    item.addEventListener('click', toggle);
+    item.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        toggle();
+      } else if (event.key === 'Escape') {
+        setGalleryOpen(item, false);
+        item.blur();
+      }
+    });
+  });
+  document.addEventListener('click', event => {
+    if (!event.target.closest('.gallery-item')) {
+      galleryItems.forEach(item => setGalleryOpen(item, false));
+    }
+  });
+
 });

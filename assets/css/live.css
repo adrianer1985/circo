@@ -41,3 +41,41 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 @media(max-width:600px){.circo-treat-visuals{grid-template-columns:1fr;gap:20px;max-width:420px}}
 
 .concept-5 .candy-history-note{max-width:950px;margin:28px auto 40px;padding:22px 28px;text-align:center;line-height:1.7;font-size:1.1rem;color:#fff3da;background:#8c1625;border:1px solid #cfa74e;border-radius:16px}.candy-history-note strong{color:#f5d37f;white-space:nowrap}
+
+
+/* Keep captions within the lower chord of each circular photograph. */
+.concept-5 .gallery-item { cursor: pointer; }
+.concept-5 .gallery-item:focus-visible {
+  outline: 3px solid #dcb46d;
+  outline-offset: 5px;
+}
+.concept-5 .gallery-overlay {
+  box-sizing: border-box;
+  padding: 0 15% 17% 23%;
+  justify-content: flex-end;
+  text-align: left;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(35,8,15,.96), rgba(35,8,15,.72) 42%, transparent 78%);
+}
+.concept-5 .gallery-overlay h4 {
+  color: #fff;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.2;
+  margin: 0 0 .4rem;
+  overflow-wrap: anywhere;
+}
+.concept-5 .gallery-overlay p {
+  color: #fff;
+  font-size: clamp(.8rem, 1.5vw, .95rem);
+  line-height: 1.4;
+  margin: 0;
+  opacity: 1;
+  overflow-wrap: anywhere;
+}
+.concept-5 .gallery-item.is-open .gallery-overlay,
+.concept-5 .gallery-item:focus-visible .gallery-overlay { opacity: 1; }
+/* Touch devices use an explicit tap toggle rather than a sticky hover. */
+@media (hover: none) {
+  .concept-5 .gallery-item:hover:not(.is-open):not(:focus-visible) .gallery-overlay { opacity: 0; }
+  .concept-5 .gallery-item:hover img { transform: none; }
+}
