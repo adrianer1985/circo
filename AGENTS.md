@@ -50,3 +50,6 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - Mantener inventario real de localStorage: circo-lang y circo-ambience. No añadir analítica ni tecnologías no exentas sin adaptar la información y el consentimiento.
 - El mapa abre un servicio externo por decisión del usuario; no reintroducir iframe automático sin revisar privacidad.
 - Pendiente confirmación operativa del proveedor de correo y condiciones contratadas de alojamiento; no presentar los textos como certificación global de cumplimiento.
+
+## Crédito de creación
+- En el pie de la web, escribir Alberto OrtegA, con A final mayúscula, en ES, EN y FR. Conservar la escritura legal del titular en los textos fiscales.
