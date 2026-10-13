@@ -49,7 +49,7 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - Sitio informativo sin pedidos ni pago en línea.
 - Páginas legales en /aviso-legal/, /privacidad/ y /cookies/, actualmente en español con enlaces indicados como tal en EN/FR.
 - Mantener inventario real de localStorage: circo-lang y circo-ambience. No añadir analítica ni tecnologías no exentas sin adaptar la información y el consentimiento.
-- El mapa abre un servicio externo por decisión del usuario; no reintroducir iframe automático sin revisar privacidad.
+- El 13/10/2026 el usuario pidió cargar Google Maps directamente en contacto. Se usa el iframe oficial de la ficha de CIRCO, con carga diferida al llegar a la sección y enlace para abrir el mapa completo. Privacidad y cookies informan de este servicio externo. No presentar esta información como certificación de cumplimiento.
 - Pendiente confirmación operativa del proveedor de correo y condiciones contratadas de alojamiento; no presentar los textos como certificación global de cumplimiento.
 
 ## Crédito de creación
