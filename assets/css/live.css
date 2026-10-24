@@ -99,3 +99,13 @@ html[data-circo-night=true] .live-actions{background:#461b26}
 .concept-5 .evento-photo-mesas { object-position: 50% 19%; }
 .concept-5 .evento-photo-cumpleanos { object-position: 53% 50%; }
 .concept-5 .evento-photo-bodas { object-position: 50% 38%; }
+
+/* New product collections, following our own-brand range. */
+.concept-5 .collection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-top:24px;padding-bottom:48px}
+.concept-5 .collection-panel{padding:32px;min-width:0;background:#8c1625;color:#fff3da;border:2px solid #d9b67b;border-radius:24px;scroll-margin-top:90px}
+.concept-5 .collection-panel .showcase-title{color:#fff3da;margin:0 0 16px;font-size:clamp(1.6rem,3vw,2.3rem)}
+.concept-5 .collection-panel .showcase-text{color:#fff3da;margin-bottom:24px;line-height:1.7}
+.concept-5 .collection-panel .btn{color:#fff3da;border-color:#d9b67b;white-space:normal;text-align:center}
+.concept-5 .gluten-range{display:block;margin:16px 0;font-weight:700}
+html[data-circo-night=true] .collection-panel{background:#461b26}
+@media(max-width:700px){.concept-5 .collection-grid{grid-template-columns:1fr}.concept-5 .collection-panel{padding:24px}}
