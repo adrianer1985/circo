@@ -44,7 +44,7 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - El correo de contacto vigente es info@circochucherias.com.
 
 ## Información legal y contacto (12 de octubre de 2026)
-- Titular confirmado: Alberto Ortega Plazuelo, autónomo y propietario de la marca y tienda.
+- Titular confirmado: Alberto Ortega, autónomo y propietario de la marca y tienda.
 - Correo único: info@circochucherias.com. No reintroducir direcciones hola@.
 - Sitio informativo sin pedidos ni pago en línea.
 - Páginas legales en /aviso-legal/, /privacidad/ y /cookies/, actualmente en español con enlaces indicados como tal en EN/FR.
@@ -53,7 +53,13 @@ La respuesta HTML de la portada en Vercel coincidía exactamente con index.html 
 - Pendiente confirmación operativa del proveedor de correo y condiciones contratadas de alojamiento; no presentar los textos como certificación global de cumplimiento.
 
 ## Crédito de creación
-- En el pie de la web, escribir AlbertOrtegA, unido y con A final mayúscula, en ES, EN y FR. Conservar la escritura legal del titular en los textos fiscales.
+- En el pie de la web, escribir Alberto Ortega, en ES, EN y FR. Conservar la escritura legal del titular en los textos fiscales.
 
 ## Retrato de la firma
 - Retrato aprobado: Alberto con traje de domador rojo y dorado, en assets/images/alberto-domador-firma.jpg. Conservar el logo de CIRCO junto al retrato.
+
+## Actualización del 16 de noviembre de 2026
+- Nombre público solicitado: Alberto Ortega, sin segundo apellido, también actualizado en los textos de la web.
+- Horario de Navidad Las Lagunas: lunes a sábado, 12:00–14:00 y 18:00–21:00.
+- Nueva tienda en el mercado navideño de El Corte Inglés: lunes a domingo, 12:00–22:00.
+- No se han facilitado fechas de fin de campaña ni excepciones de festivos; no inventarlas. Revisar los horarios al terminar Navidad.
