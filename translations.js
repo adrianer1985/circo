@@ -1,6 +1,6 @@
 /** Translations reviewed for ES, British English and French. */
 window.circoTranslations = {
-  "es": {"christmas_title":"Esta Navidad, nos vemos en nuestros dos CIRCO","christmas_text":"Abrimos una nueva tienda en el mercado navideño de El Corte Inglés. ¡Ven a visitarnos!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Lunes a sábado · 12:00–14:00 h y 18:00–21:00 h","christmas_corte":"<strong>CIRCO · Mercado navideño de El Corte Inglés</strong><br>Lunes a domingo · 12:00–22:00 h",
+  "es": {"market_map_title":"CIRCO · Mercado navideño de El Corte Inglés","market_map_hours":"Lunes a domingo · 12:00–22:00 h","market_map_label":"Google Maps · El Corte Inglés Málaga centro, Avenida de Andalucía, 4 y 6","christmas_title":"Esta Navidad, nos vemos en nuestros dos CIRCO","christmas_text":"Abrimos una nueva tienda en el mercado navideño de El Corte Inglés. ¡Ven a visitarnos!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Lunes a sábado · 12:00–14:00 h y 18:00–21:00 h","christmas_corte":"<strong>CIRCO · Mercado navideño de El Corte Inglés</strong><br>Lunes a domingo · 12:00–22:00 h",
 "nav_tins": "Latas",
     "nav_miniatures": "Miniaturas",
     "tins_text": "Descubre nuestras latas en la tienda. Consúltanos para conocer los modelos disponibles.",
@@ -170,7 +170,7 @@ window.circoTranslations = {
     "own_almonds_message": "Hola, me gustaría consultar la disponibilidad de las almendras garrapiñadas Circo.",
     "music_label": "Música circense"
   },
-  "en": {"christmas_title":"Visit both CIRCO shops this Christmas","christmas_text":"We’re opening a new shop at the El Corte Inglés Christmas market. Come and visit us!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Monday to Saturday · 12:00–14:00 and 18:00–21:00","christmas_corte":"<strong>CIRCO · El Corte Inglés Christmas market</strong><br>Monday to Sunday · 12:00–22:00",
+  "en": {"market_map_title":"CIRCO · El Corte Inglés Christmas market","market_map_hours":"Monday to Sunday · 12:00–22:00","market_map_label":"Google Maps · El Corte Inglés central Málaga, Avenida de Andalucía, 4 and 6","christmas_title":"Visit both CIRCO shops this Christmas","christmas_text":"We’re opening a new shop at the El Corte Inglés Christmas market. Come and visit us!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Monday to Saturday · 12:00–14:00 and 18:00–21:00","christmas_corte":"<strong>CIRCO · El Corte Inglés Christmas market</strong><br>Monday to Sunday · 12:00–22:00",
 "nav_tins": "Tins",
     "nav_miniatures": "Miniatures",
     "tins_text": "Discover our tins in store. Get in touch to find out which designs are available.",
@@ -340,7 +340,7 @@ window.circoTranslations = {
     "own_almonds_message": "Hello, I would like to check the availability of Circo candied almonds.",
     "music_label": "Circus music"
   },
-  "fr": {"christmas_title":"Retrouvez nos deux boutiques CIRCO pour Noël","christmas_text":"Nous ouvrons une nouvelle boutique au marché de Noël d’El Corte Inglés. Venez nous rendre visite !","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Du lundi au samedi · 12 h–14 h et 18 h–21 h","christmas_corte":"<strong>CIRCO · Marché de Noël d’El Corte Inglés</strong><br>Du lundi au dimanche · 12 h–22 h",
+  "fr": {"market_map_title":"CIRCO · Marché de Noël d’El Corte Inglés","market_map_hours":"Du lundi au dimanche · 12 h–22 h","market_map_label":"Google Maps · El Corte Inglés Málaga centre, Avenida de Andalucía, 4 et 6","christmas_title":"Retrouvez nos deux boutiques CIRCO pour Noël","christmas_text":"Nous ouvrons une nouvelle boutique au marché de Noël d’El Corte Inglés. Venez nous rendre visite !","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Du lundi au samedi · 12 h–14 h et 18 h–21 h","christmas_corte":"<strong>CIRCO · Marché de Noël d’El Corte Inglés</strong><br>Du lundi au dimanche · 12 h–22 h",
 "nav_tins": "Boîtes en métal",
     "nav_miniatures": "Miniatures",
     "tins_text": "Découvrez nos boîtes en métal en boutique. Contactez-nous pour connaître les modèles disponibles.",
