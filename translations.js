@@ -1,6 +1,6 @@
 /** Translations reviewed for ES, British English and French. */
 window.circoTranslations = {
-  "es": {"about_portrait_alt":"Alberto Ortega vestido de domador de CIRCO","market_map_title":"CIRCO · Mercado navideño de El Corte Inglés","market_map_hours":"Lunes a domingo · 12:00–22:00 h","market_map_label":"Google Maps · El Corte Inglés Málaga centro, Avenida de Andalucía, 4 y 6","christmas_title":"Esta Navidad, nos vemos en nuestros dos CIRCO","christmas_text":"Abrimos una nueva tienda en el mercado navideño de El Corte Inglés. ¡Ven a visitarnos!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Lunes a sábado · 12:00–14:00 h y 18:00–21:00 h","christmas_corte":"<strong>CIRCO · Mercado navideño de El Corte Inglés</strong><br>Lunes a domingo · 12:00–22:00 h",
+  "es": {"market_hours_title":"Horario de Navidad · Mercado navideño El Corte Inglés Málaga","about_portrait_alt":"Alberto Ortega vestido de domador de CIRCO","market_map_title":"Mercado navideño El Corte Inglés Málaga","market_map_hours":"Lunes a domingo · 12:00–22:00 h","market_map_label":"Google Maps · El Corte Inglés Málaga centro, Avenida de Andalucía, 4 y 6","christmas_title":"Esta Navidad, nos vemos en nuestros dos CIRCO","christmas_text":"Abrimos una nueva tienda en el mercado navideño de El Corte Inglés. ¡Ven a visitarnos!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Lunes a sábado · 12:00–14:00 h y 18:00–21:00 h","christmas_corte":"<strong>CIRCO · Mercado navideño de El Corte Inglés</strong><br>Lunes a domingo · 12:00–22:00 h",
 "nav_tins": "Latas",
     "nav_miniatures": "Miniaturas",
     "tins_text": "Descubre nuestras latas en la tienda. Consúltanos para conocer los modelos disponibles.",
@@ -114,7 +114,7 @@ window.circoTranslations = {
     "treat_popcorn_alt": "Cartón de palomitas de rayas rojas y blancas con la pegatina de Circo y palomitas caídas",
     "contact_hours_title": "Horario de Navidad · Las Lagunas",
     "contact_hours_text": "<strong>Lunes a sábado:</strong> 12:00–14:00 h y 18:00–21:00 h",
-    "contact_hours_sub": "<strong>Nueva tienda · Mercado navideño de El Corte Inglés:</strong> lunes a domingo, de 12:00 a 22:00 h.",
+    "contact_hours_sub": "<strong>Lunes a domingo:</strong> 12:00–22:00 h",
     "footer_tagline": "La tienda de golosinas retro más espectacular de España, inspirada en los años 80 y 90 y decorada con el alma del circo clásico.",
     "footer_nav_title": "Navegación",
     "footer_contact_title": "Contacto Directo",
@@ -170,7 +170,7 @@ window.circoTranslations = {
     "own_almonds_message": "Hola, me gustaría consultar la disponibilidad de las almendras garrapiñadas Circo.",
     "music_label": "Música circense"
   },
-  "en": {"about_portrait_alt":"Alberto Ortega dressed as CIRCO’s ringmaster","market_map_title":"CIRCO · El Corte Inglés Christmas market","market_map_hours":"Monday to Sunday · 12:00–22:00","market_map_label":"Google Maps · El Corte Inglés central Málaga, Avenida de Andalucía, 4 and 6","christmas_title":"Visit both CIRCO shops this Christmas","christmas_text":"We’re opening a new shop at the El Corte Inglés Christmas market. Come and visit us!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Monday to Saturday · 12:00–14:00 and 18:00–21:00","christmas_corte":"<strong>CIRCO · El Corte Inglés Christmas market</strong><br>Monday to Sunday · 12:00–22:00",
+  "en": {"market_hours_title":"Christmas opening hours · El Corte Inglés Málaga Christmas market","about_portrait_alt":"Alberto Ortega dressed as CIRCO’s ringmaster","market_map_title":"El Corte Inglés Málaga Christmas market","market_map_hours":"Monday to Sunday · 12:00–22:00","market_map_label":"Google Maps · El Corte Inglés central Málaga, Avenida de Andalucía, 4 and 6","christmas_title":"Visit both CIRCO shops this Christmas","christmas_text":"We’re opening a new shop at the El Corte Inglés Christmas market. Come and visit us!","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Monday to Saturday · 12:00–14:00 and 18:00–21:00","christmas_corte":"<strong>CIRCO · El Corte Inglés Christmas market</strong><br>Monday to Sunday · 12:00–22:00",
 "nav_tins": "Tins",
     "nav_miniatures": "Miniatures",
     "tins_text": "Discover our tins in store. Get in touch to find out which designs are available.",
@@ -284,7 +284,7 @@ window.circoTranslations = {
     "treat_popcorn_alt": "Red and white striped popcorn carton with the Circo sticker and scattered popcorn",
     "contact_hours_title": "Christmas opening hours · Las Lagunas",
     "contact_hours_text": "<strong>Monday to Saturday:</strong> 12:00–14:00 and 18:00–21:00",
-    "contact_hours_sub": "<strong>New shop · El Corte Inglés Christmas market:</strong> Monday to Sunday, 12:00–22:00.",
+    "contact_hours_sub": "<strong>Monday to Sunday:</strong> 12:00–22:00",
     "footer_tagline": "Spain’s most spectacular retro sweet shop, inspired by the 1980s and 1990s and filled with the spirit of the traditional circus.",
     "footer_nav_title": "Navigation",
     "footer_contact_title": "Get in Touch",
@@ -340,7 +340,7 @@ window.circoTranslations = {
     "own_almonds_message": "Hello, I would like to check the availability of Circo candied almonds.",
     "music_label": "Circus music"
   },
-  "fr": {"about_portrait_alt":"Alberto Ortega en costume de Monsieur Loyal de CIRCO","market_map_title":"CIRCO · Marché de Noël d’El Corte Inglés","market_map_hours":"Du lundi au dimanche · 12 h–22 h","market_map_label":"Google Maps · El Corte Inglés Málaga centre, Avenida de Andalucía, 4 et 6","christmas_title":"Retrouvez nos deux boutiques CIRCO pour Noël","christmas_text":"Nous ouvrons une nouvelle boutique au marché de Noël d’El Corte Inglés. Venez nous rendre visite !","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Du lundi au samedi · 12 h–14 h et 18 h–21 h","christmas_corte":"<strong>CIRCO · Marché de Noël d’El Corte Inglés</strong><br>Du lundi au dimanche · 12 h–22 h",
+  "fr": {"market_hours_title":"Horaires de Noël · Marché de Noël El Corte Inglés Málaga","about_portrait_alt":"Alberto Ortega en costume de Monsieur Loyal de CIRCO","market_map_title":"Marché de Noël El Corte Inglés Málaga","market_map_hours":"Du lundi au dimanche · 12 h–22 h","market_map_label":"Google Maps · El Corte Inglés Málaga centre, Avenida de Andalucía, 4 et 6","christmas_title":"Retrouvez nos deux boutiques CIRCO pour Noël","christmas_text":"Nous ouvrons une nouvelle boutique au marché de Noël d’El Corte Inglés. Venez nous rendre visite !","christmas_lagunas":"<strong>CIRCO Las Lagunas</strong><br>Du lundi au samedi · 12 h–14 h et 18 h–21 h","christmas_corte":"<strong>CIRCO · Marché de Noël d’El Corte Inglés</strong><br>Du lundi au dimanche · 12 h–22 h",
 "nav_tins": "Boîtes en métal",
     "nav_miniatures": "Miniatures",
     "tins_text": "Découvrez nos boîtes en métal en boutique. Contactez-nous pour connaître les modèles disponibles.",
@@ -454,7 +454,7 @@ window.circoTranslations = {
     "treat_popcorn_alt": "Cornet de popcorn à rayures rouges et blanches avec l’autocollant Circo et du popcorn éparpillé",
     "contact_hours_title": "Horaires de Noël · Las Lagunas",
     "contact_hours_text": "<strong>Du lundi au samedi :</strong> 12 h–14 h et 18 h–21 h",
-    "contact_hours_sub": "<strong>Nouvelle boutique · Marché de Noël d’El Corte Inglés :</strong> du lundi au dimanche, de 12 h à 22 h.",
+    "contact_hours_sub": "<strong>Du lundi au dimanche :</strong> 12 h–22 h",
     "footer_tagline": "La confiserie rétro la plus spectaculaire d’Espagne, inspirée des années 80 et 90 et animée par l’esprit du cirque traditionnel.",
     "footer_nav_title": "Navigation",
     "footer_contact_title": "Contactez-nous",
